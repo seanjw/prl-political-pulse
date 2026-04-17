@@ -1,0 +1,47 @@
+# Core data processing
+dataset
+pandas
+numpy
+sqlalchemy
+ibis-framework[mysql,duckdb]
+pymysql
+
+# Web scraping & HTTP (light: no playwright, scrapegraphai, mechanicalsoup)
+requests
+beautifulsoup4
+trafilatura
+lxml
+
+# Configuration
+python-dotenv
+pyyaml
+rtyaml
+json5
+hjson
+
+# APIs & cloud services
+openai
+boto3
+google-api-python-client
+google-auth
+tweepy
+SPARQLWrapper
+
+# Pulse citizens (survey analysis)
+scipy
+
+# Toplines generation (PDF reports)
+matplotlib
+seaborn
+jinja2
+
+# Utilities
+packaging
+tenacity
+nltk
+tiktoken
+orjson
+backoff
+pytz
+cssselect
+scrapelib

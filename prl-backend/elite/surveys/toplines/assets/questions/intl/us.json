@@ -1,0 +1,756 @@
+{
+  "democrat_therm_1": {
+    "name": "Democrat Feeling Thermometer",
+    "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling toward Democrats?",
+    "type": "quantitative",
+    "options":
+    {
+      "min": 0,
+      "max": 100
+    }
+  },
+
+  "republican_therm_1": {
+    "name": "Republican Feeling Thermometer",
+    "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling toward Republicans?",
+    "type": "quantitative",
+    "options":
+    {
+      "min": 0,
+      "max": 100
+    }
+  },
+
+  "general_trust": {
+    "name": "General Trust",
+    "question_text": "Do you think your wallet (or your valuables) would be returned to you if it were found by a stranger? ",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+
+  "institutional_corruption": {
+    "name": "Institutional Corruption",
+    "question_text": "If a member of Congress were offered a bribe to influence the awarding of a government contract, do you think that the member of Congress would accept or refuse the bribe?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Extremely likely to refuse",
+      "2": "Likely to refuse",
+      "3": "Equally likely to refuse or accept",
+      "4": "Likely to accept",
+      "5": "Extremely likely to accept"
+    }
+  },
+
+  "institutional_response": {
+    "name": "Institutional Response",
+    "question_text": "If you were to complain about the poor quality of a public service, how likely or unlikely is it that the problem would be easily resolved? ",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Extremely unlikely",
+      "2": "Unlikely",
+      "3": "Equally likely to or unlikely",
+      "4": "Likely",
+      "5": "Extremely likely"
+    }
+  },
+
+  "vote_importance": {
+    "name": "Importance of Voting",
+    "question_text": "How important or unimportant is it to vote in every election?",
+    "type": "qualitative",
+    "options":
+    {
+      "5": "Very unimportant",
+      "4": "Unimportant",
+      "3": "Neither important nor unimportant",
+      "2": "Important",
+      "1": "Very important"
+    }
+  },
+
+  "pride": {
+    "name": "Pride in Citizenship",
+    "question_text": "How proud are you to be an American?",
+    "type": "qualitative",
+    "options":
+    {
+      "5": "Not at all proud",
+      "4": "Only a little proud",
+      "3": "Moderately proud",
+      "2": "Very proud",
+      "1": "Extremely proud"
+    }
+  },
+
+  "fair_treatment": {
+    "name": "Fair Treatment by Govt",
+    "question_text": "Do you agree or disagree that you can expect fair treatment from government authorities?",
+    "type": "qualitative",
+    "options":
+    {
+      "5": "Strongly disagree",
+      "4": "Disagree",
+      "3": "Neither agree nor disagree",
+      "2": "Agree",
+      "1": "Strongly agree"
+
+    }
+  },
+
+  "maga": {
+    "name": "Maga / Never-Trumper",
+    "question_text": "Would you describe yourself as a…",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "MAGA Republican",
+      "2": "Never Trumper",
+      "3": "Neither"
+
+    }
+  },
+
+  "norm_judges": {
+    "name": "Judge Appointments",
+    "question_text": "Do you agree or disagree: {inparty} elected officials should sometimes consider ignoring court decisions when the judges who issued those decisions were appointed by {outparty} presidents.",
+    "type": "qualitative",
+    "options":
+    {
+      "5": "Strongly disagree",
+      "4": "Disagree",
+      "3": "Neither agree nor disagree",
+      "2": "Agree",
+      "1": "Strongly agree"
+    }
+  },
+
+  "norm_judges_perception": {
+    "name": "Outparty: Judge Appointments",
+    "question_text": "What percent of {outparty} voters do you think agree with the following: {outparty} elected officials should sometimes consider ignoring court decisions when the judges who issued those decisions were appointed by {inparty} presidents.",
+    "type": "quantitative",
+    "options":
+    {
+      "min": 0,
+      "max": 100
+    }
+  },
+
+  "norm_polling": {
+    "name": "Polling Stations",
+    "question_text": "Do you agree or disagree: {inparty} should reduce the number of polling stations in areas that typically support {outparty}.",
+    "type": "qualitative",
+    "options":
+    {
+      "5": "Strongly disagree",
+      "4": "Disagree",
+      "3": "Neither agree nor disagree",
+      "2": "Agree",
+      "1": "Strongly agree"
+    }
+  },
+
+  "norm_polling_perception": {
+    "name": "Outparty: Polling Stations",
+    "question_text": "What percent of {outparty} voters do you think agree with the following: {outparty} should reduce the number of polling stations in areas that typically support {inparty}.",
+    "type": "quantitative",
+    "options":
+    {
+      "min": 0,
+      "max": 100
+    }
+  },
+
+  "norm_executive": {
+    "name": "Use Executive Orders",
+    "question_text": "Do you agree or disagree: If a {inparty} president can't get cooperation from {outparty} members of congress to pass new laws, the {inparty} president should circumvent Congress and issue executive orders on their own to accomplish their priorities.",
+    "type": "qualitative",
+    "options":
+    {
+      "5": "Strongly disagree",
+      "4": "Disagree",
+      "3": "Neither agree nor disagree",
+      "2": "Agree",
+      "1": "Strongly agree"
+    }
+  },
+
+  "norm_executive_perception": {
+    "name": "Outparty: Use Executive Orders",
+    "question_text": "What percent of {outparty} voters do you think agree with the following: If a {outparty} president can't get cooperation from {inparty} members of congress to pass new laws, the {outparty} president should issue executive orders on their own to accomplish their priorities.",
+    "type": "quantitative",
+    "options":
+    {
+      "min": 0,
+      "max": 100
+    }
+  },
+
+  "norm_censorship": {
+    "name": "Censorship",
+    "question_text": "Do you agree or disagree with the following: The government should be able to censor media sources that spend more time attacking {inparty} than {outparty}.",
+    "type": "qualitative",
+    "options":
+    {
+      "5": "Strongly disagree",
+      "4": "Disagree",
+      "3": "Neither agree nor disagree",
+      "2": "Agree",
+      "1": "Strongly agree"
+    }
+  },
+
+  "norm_censorship_perception": {
+    "name": "Outparty: Censorship",
+    "question_text": "What percent of {outparty} voters do you think agree with the following: The government should be able to censor media sources that spend more time attacking {outparty} than {inparty}.",
+    "type": "quantitative",
+    "options":
+    {
+      "min": 0,
+      "max": 100
+    }
+  },
+
+  "norm_loyalty": {
+    "name": "Loyalty to Election Denial",
+    "question_text": "Do you agree or disagree with the following: When a {inparty} candidate questions the outcome of an election other {inparty} should be more loyal to the {inparty} party than to election rules and the constitution.",
+    "type": "qualitative",
+    "options":
+    {
+      "5": "Strongly disagree",
+      "4": "Disagree",
+      "3": "Neither agree nor disagree",
+      "2": "Agree",
+      "1": "Strongly agree"
+
+    }
+  },
+
+  "norm_loyalty_perception": {
+    "name": "Outparty: Loyalty to Election Denial",
+    "question_text": "What percent of {outparty} voters do you think agree with the following: When a {outparty} questions the outcome of an election other {outparty} should be more loyal to the {outparty} party than to election rules and the constitution.",
+    "type": "quantitative",
+    "options":
+    {
+      "min": 0,
+      "max": 100
+    }
+  },
+
+  "violence1": {
+    "name": "1. Support for Unlawful Protest",
+    "question_text": "Please consider the following scenarios:  {name} was convicted of protesting without a permit. He was arrested by police after leading a protest against {outparty} on the grounds of the county courthouse. He made no effort to acquire the necessary permit for the protest and refused to leave when asked by police. Do you support or oppose {name}’s actions?",
+    "type": "qualitative",
+    "options":
+    {
+      "5": "Strongly oppose",
+      "4": "Oppose",
+      "3": "Neither support nor oppose",
+      "2": "Support",
+      "1": "Strongly support"
+
+    }
+  },
+
+  "violence2": {
+    "name": "2. Support for Vandalism",
+    "question_text": "{name} was convicted of vandalism. He was arrested by police after he vandalized several large signs expressing support for candidates of the {outparty} party. Do you support or oppose {name}’s actions?",
+    "type": "qualitative",
+    "options":
+    {
+      "5": "Strongly oppose",
+      "4": "Oppose",
+      "3": "Neither support nor oppose",
+      "2": "Support",
+      "1": "Strongly support"
+    }
+  },
+
+  "violence3": {
+    "name": "3. Support for Assault",
+    "question_text": "{name} was convicted of assault. He was arrested by police for throwing rocks at peaceful {outparty} protesters. Although no one was  seriously injured, paramedics bandaged a man with a head wound. Do you support or oppose {name}’s actions?",
+    "type": "qualitative",
+    "options":
+    {
+      "5": "Strongly oppose",
+      "4": "Oppose",
+      "3": "Neither support nor oppose",
+      "2": "Support",
+      "1": "Strongly support"
+    }
+  },
+
+  "violence4": {
+    "name": "4. Support for Arson",
+    "question_text": "{name} was convicted of arson. He was arrested by police as he attempted to run from a fire he started at the local {outparty} headquarters. Although he waited for the building to close for the night, several adjacent buildings were still occupied. Do you support or oppose {name}’s actions?",
+    "type": "qualitative",
+    "options":
+    {
+      "5": "Strongly oppose",
+      "4": "Oppose",
+      "3": "Neither support nor oppose",
+      "2": "Support",
+      "1": "Strongly support"
+    }
+  },
+
+  "violence5": {
+    "name": "5. Support for Assault with a Deadly Weapon",
+    "question_text": "{name} was convicted of assault with a deadly weapon.He was arrested by police after driving his car into a crowd of {outparty} protesters. Although no one was killed, several individuals were seriously injured and one spent a month in the hospital. Do you support or oppose {name}’s actions?",
+    "type": "qualitative",
+    "options":
+    {
+      "5": "Strongly oppose",
+      "4": "Oppose",
+      "3": "Neither support nor oppose",
+      "2": "Support",
+      "1": "Strongly support"
+    }
+  },
+
+  "violence6": {
+    "name": "6. Support for Murder",
+    "question_text": "{name} was convicted of murder. He was arrested by police after surveillance footage was found showing him stabbing a prominent {outparty} to death. {name} targeted the victim because he believed the victim had prevented him from voting in the last election as part of a conspiracy to stop {inparty} voters. Do you support or oppose {name}’s actions?",
+    "type": "qualitative",
+    "options":
+    {
+      "5": "Strongly oppose",
+      "4": "Oppose",
+      "3": "Neither support nor oppose",
+      "2": "Support",
+      "1": "Strongly support"
+    }
+  },
+
+  " In what year were you born?": {
+    "name": "Birth Year",
+    "question_text": "Year of Birth",
+    "type": "quantitative",
+    "options":
+    {
+      "min": 1900,
+      "max": 2025
+    }
+  },
+
+  "gender": {
+    "name": "Gender",
+    "question_text": "Are you male or female?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Male",
+      "2": "Female"
+    }
+  },
+
+  "race": {
+    "name": "Race",
+    "question_text": "What racial or ethnic group best describes you?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "White",
+      "2": "Black",
+      "3": "Hispanic",
+      "4": "Asian",
+      "5": "Native American",
+      "6": "Two or more races",
+      "7": "Other",
+      "8": "Middle Eastern"
+    }
+  },
+
+  "hispanic": {
+    "name": "Hispanic",
+    "question_text": "Are you of Spanish, Latino, or Hispanic origin or descent?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Yes",
+      "2": "No"
+    }
+  },
+
+  "speakspanish": {
+    "name": "Spanish Speaking",
+    "question_text": "Do you speak Spanish on a regular basis?",
+    "type": "qualitative",
+    "options":
+    {
+      "4": "I can not speak Spanish",
+      "3": "I speak English primarily but can speak Spanish",
+      "2": "I speak both Spanish and English equally",
+      "1": "I speak Spanish primarily"
+    }
+  },
+
+  "educ": {
+    "name": "Education",
+    "question_text": "What is the highest level of education you have completed?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "No HS",
+      "2": "High school graduate",
+      "3": "Some college",
+      "4": "2-year",
+      "5": "4-year",
+      "6": "Post-grad"
+    }
+  },
+
+  "marstat": {
+    "name": "Marital Status",
+    "question_text": "What is your marital status?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Married",
+      "2": "Separated",
+      "3": "Divorced",
+      "4": "Widowed",
+      "5": "Never married",
+      "6": "Domestic / civil partnership"
+    }
+  },
+
+  "employ": {
+    "name": "Employment",
+    "question_text": "Which of the following best describes your current employment status?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Full-time",
+      "2": "Part-time",
+      "3": "Temporarily laid off",
+      "4": "Unemployed",
+      "5": "Retired",
+      "6": "Permanently disabled",
+      "7": "Homemaker",
+      "8": "Student",
+      "9": "Other"
+    }
+  },
+
+  "faminc_new": {
+    "name": "Income",
+    "question_text": "Thinking back over the last year, what was your family’s annual income?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Less than $10000",
+      "2": "$10000 - $19999",
+      "3": "$20000 - $29999",
+      "4": "$30000 - $39999",
+      "5": "$40000 - $49999",
+      "6": "$50000 - $59999",
+      "7": "$60000 - $69999",
+      "8": "$70000 - $79999",
+      "9": "$80000 - $99999",
+      "10": "$100000 - $119999",
+      "11": "$120000 - $149999",
+      "12": "$150000 - $199999",
+      "13": "$200000 - $249999",
+      "14": "$250000 - $349999",
+      "15": "$350000 - $499999",
+      "16": "$500000 or more",
+      "97": "Prefer not to say"
+    }
+  },
+
+  "child18": {
+    "name": "Children",
+    "question_text": "Are you the parent or guardian of any children under the age of 18?",
+    "type": "qualitative",
+    "options":
+    {
+      "2": "No",
+      "1": "Yes"
+    }
+  },
+
+  "pid": {
+    "name": "Partisianship",
+    "question_text": "Generally speaking, do you think of yourself as a…?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Democrat",
+      "2": "Republican",
+      "3": "Independent/Other"
+    }
+  },
+
+  "pid3": {
+    "name": "Party Affiliation",
+    "question_text": "Generally speaking, do you think of yourself as a…?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Democrat",
+      "2": "Republican",
+      "3": "Independent"
+    }
+  },
+
+  "pid7": {
+    "name": "Party Affiliation Strength",
+    "question_text": "[Coded from pid3 and follow-up questions] If Democrat selected: 'Would you call yourself a strong Democrat or a not very strong Democrat?'; If Republican selected: 'Would you call yourself a strong Republican or a not very strong Republican?'; If Independent, Other, or Not sure selected: 'Do you think of yourself as a closer to the Democratic or the Republican Party?'",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Strong Democrat",
+      "2": "Not very strong Democrat",
+      "3": "Lean Democrat",
+      "4": "Independent",
+      "5": "Lean Republican",
+      "6": "Not very strong Republican",
+      "7": "Strong Republican"
+    }
+  },
+
+  "presvote16post": {
+    "name": "Presidential Vote in the 2016 Election",
+    "question_text": "Who did you vote for in the election for President in 2016?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Hillary Clinton",
+      "2": "Donald Trump",
+      "5": "Evan McMullin",
+      "3": "Gary Johnson",
+      "4": "Jill Stein",
+      "6": "Other",
+      "7": "Did not vote for President"
+    }
+  },
+
+  "presvote20post": {
+    "name": "Presidential Vote in the 2020 Election",
+    "question_text": "Who did you vote for in the election for President in 2020?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Joe Biden",
+      "2": "Donald Trump",
+      "3": "Jo Jorgensen",
+      "4": "Howie Hawkins",
+      "5": "Other",
+      "6": "Did not vote for President"
+    }
+  },
+
+  "inputstate": {
+    "name": "State of Residence",
+    "question_text": "What is your State of Residence?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Alabama",
+      "2": "Alaska",
+      "4": "Arizona",
+      "5": "Arkansas",
+      "6": "California",
+      "8": "Colorado",
+      "9": "Connecticut",
+      "10": "Delaware",
+      "11": "District of Columbia",
+      "12": "Florida",
+      "13": "Georgia",
+      "15": "Hawaii",
+      "16": "Idaho",
+      "17": "Illinois",
+      "18": "Indiana",
+      "19": "Iowa",
+      "20": "Kansas",
+      "21": "Kentucky",
+      "22": "Louisiana",
+      "23": "Maine",
+      "24": "Maryland",
+      "25": "Massachusetts",
+      "26": "Michigan",
+      "27": "Minnesota",
+      "28": "Mississippi",
+      "29": "Missouri",
+      "30": "Montana",
+      "31": "Nebraska",
+      "32": "Nevada",
+      "33": "New Hampshire",
+      "34": "New Jersey",
+      "35": "New Mexico",
+      "36": "New York",
+      "37": "North Carolina",
+      "38": "North Dakota",
+      "39": "Ohio",
+      "40": "Oklahoma",
+      "41": "Oregon",
+      "42": "Pennsylvania",
+      "44": "Rhode Island",
+      "45": "South Carolina",
+      "46": "South Dakota",
+      "47": "Tennessee",
+      "48": "Texas",
+      "49": "Utah",
+      "50": "Vermont",
+      "51": "Virginia",
+      "53": "Washington",
+      "54": "West Virginia",
+      "55": "Wisconsin",
+      "56": "Wyoming"
+    }
+  },
+
+  "urbanicity2": {
+    "name": "Residence type",
+    "question_text": "In what sort of place do you currently live?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Big city",
+      "2": "Smaller city",
+      "3": "Suburban area",
+      "4": "Small town",
+      "5": "Rural area"
+    }
+  },
+
+  "votereg": {
+    "name": "Voter Registration",
+    "question_text": "Are you registered to vote?",
+    "type": "qualitative",
+    "options":
+    {
+      "2": "No",
+      "1": "Yes",
+      "3": "Don't know"
+    }
+  },
+
+  "ideo5": {
+    "name": "Political Ideology",
+    "question_text": "In general, how would you describe your own political viewpoint?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Very liberal",
+      "2": "Liberal",
+      "3": "Moderate",
+      "4": "Conservative",
+      "5": "Very conservative",
+      "6": "Not sure"
+    }
+  },
+
+  "newsint": {
+    "name": "Political Interest",
+    "question_text": "Some people seem to follow what’s going on in government and public affairs most of the time, whether there’s an election going on or not. Others aren’t that interested. Would you say you follow what’s going on in government and public affairs…",
+    "type": "qualitative",
+    "options":
+    {
+      "4": "Hardly at all",
+      "3": "Only now and then",
+      "2": "Some of the time",
+      "1": "Most of the time",
+      "7": "Don't know"
+    }
+  },
+
+  "religpew": {
+    "name": "Religion",
+    "question_text": "What is your present religion, if any?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Protestant",
+      "2": "Roman Catholic",
+      "3": "Mormon",
+      "4": "Eastern or Greek Orthodox",
+      "5": "Jewish",
+      "6": "Muslim",
+      "8": "Hindu",
+      "7": "Buddhist",
+      "12": "Something else",
+      "10": "Agnostic",
+      "9": "Atheist",
+      "11": "Nothing in particular"
+
+    }
+  },
+
+  "pew_churatd": {
+    "name": "Church Attendance",
+    "question_text": "Aside from wedding and funerals, how often do you attend religious services?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "More than once a week",
+      "2": "Once a week",
+      "3": "Once or twice a month",
+      "4": "A few times a year",
+      "5": "Seldom",
+      "6": "Never",
+      "7": "Don't know"
+
+    }
+  },
+
+  "pew_bornagain": {
+    "name": "Born Again Christian",
+    "question_text": "Would you describe yourself as a “born-again”, or evangelical Christian, or not?",
+    "type": "qualitative",
+    "options":
+    {
+      "2": "No",
+      "1": "Yes"
+    }
+  },
+
+  "pew_religimp": {
+    "name": "Importance of Religion",
+    "question_text": "How important is religion in your life?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Very important",
+      "2": "Somewhat important",
+      "3": "Not too important",
+      "4": "Not at all important"
+    }
+  },
+
+  "pew_prayer": {
+    "name": "Frequency of Prayer",
+    "question_text": "People practice their religion in different ways. Outside of attending religious services, how often do you pray?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Several times a day",
+      "2": "Once a day",
+      "3": "A few times a week",
+      "4": "Once a week",
+      "5": "A few times a month",
+      "6": "Seldom",
+      "7": "Never",
+      "8": "Don't know"
+    }
+  },
+
+  "age": {
+    "name": "Age",
+    "question_text": null,
+    "type": "quant",
+    "options":
+    {
+      "1": "18-34",
+      "2": "35-50",
+      "3": "51-69",
+      "4": "70+"
+    }
+  }
+}

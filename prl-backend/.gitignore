@@ -1,0 +1,35 @@
+# Virtual environments and dependencies
+.os/
+node_modules/
+__pycache__/
+*.pyc
+
+# Build outputs
+_site-production/
+
+# Environment files with secrets
+.env
+*.env.local
+
+# Temporary and generated files
+.tmp/
+logs/
+.sandbox/
+
+# Pulse server Python build artifacts
+pulse/server/python/
+
+# Large data files
+surveys/pull/pull all core items in citizens/surveys_labelled.csv
+infra/cdk.out/
+
+# External data repos (cloned at setup, not tracked)
+elite/officials/state-legislators/openstates/people/
+elite/officials/federal-legislators/unitedstates/images/
+elite/officials/federal-legislators/unitedstates/congress-legislators/
+
+# Classification logs (generated at runtime)
+elite/rhetoric/classify/logs/
+
+# Claude local settings
+.claude/settings.local.json

@@ -1,0 +1,13 @@
+FROM --platform=linux/amd64 public.ecr.aws/lambda/python:3.11
+
+# Install dependencies
+COPY lambdas/survey-processor/requirements.txt ${LAMBDA_TASK_ROOT}/requirements.txt
+RUN pip install --no-cache-dir -r ${LAMBDA_TASK_ROOT}/requirements.txt
+
+# Install pandas + numpy (pin numpy<2 for pre-built wheels on Amazon Linux 2)
+RUN pip install --no-cache-dir "pandas<3" "numpy<2"
+
+# Copy survey processor code
+COPY lambdas/survey-processor/ ${LAMBDA_TASK_ROOT}/
+
+CMD ["handler.lambda_handler"]

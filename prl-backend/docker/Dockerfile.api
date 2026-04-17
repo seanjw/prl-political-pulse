@@ -1,0 +1,11 @@
+FROM public.ecr.aws/lambda/python:3.11
+
+COPY pulse/server/requirements.txt /tmp/
+RUN yum install -y gcc python3-devel && \
+    pip install --no-cache-dir -r /tmp/requirements.txt && \
+    yum remove -y gcc python3-devel && yum clean all
+
+COPY pulse/server/api/ ${LAMBDA_TASK_ROOT}/
+COPY shared/ ${LAMBDA_TASK_ROOT}/shared/
+
+CMD ["main.lambda_handler"]

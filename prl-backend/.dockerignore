@@ -1,0 +1,29 @@
+# Git
+.git/
+.github/
+
+# Large data directories (not needed in container — exclude cloned repos, keep scripts)
+elite/rhetoric/classify/logs/
+elite/officials/federal-legislators/unitedstates/congress-legislators/
+elite/officials/federal-legislators/unitedstates/images/
+elite/officials/state-legislators/openstates/people/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Tests and docs
+tests/
+docs/
+legacy/
+
+# Infrastructure
+infra/
+node_modules/
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store

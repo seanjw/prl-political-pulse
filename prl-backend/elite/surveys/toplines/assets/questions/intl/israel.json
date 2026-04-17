@@ -1,0 +1,507 @@
+{
+  "party_affiliation": {
+    "name": "Partisanship",
+    "question_text": "Which party from the following list do you identify with the most?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Likud",
+      "2": "Yesh Atid",
+      "3": "National Unity",
+      "4": "Shas",
+      "5": "Mafdal – Religious Zionism",
+      "6": "United Torah Judaism",
+      "7": "Otzma Yehudit",
+      "8": "Yisrael Beiteinu",
+      "9": "United Arab List",
+      "10": "Hadash–Ta'al",
+      "11": "Labor Party",
+      "12": "Noam",
+      "13": "I do not identify with any party"
+    }
+  },  
+ 
+   "inparty_therm_1": {
+      "name": "In-party Feeling Thermometer",
+      "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling toward people who are supporters of {government_opposition}?",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "outparty_therm_1": {
+      "name": "Out-party Feeling Thermometer",
+      "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling toward people who are supporters of {government_opposition}?",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "general_trust": {
+      "name": "General Trust",
+      "question_text": "Do you think your wallet (or your valuables) would be returned to you if it were found by a stranger? ",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+  
+    "institutional_corruption": {
+      "name": "Institutional Corruption",
+      "question_text": "If a member of Knesset were offered a bribe to influence the awarding of a government contract, do you think that the Knesset  member would accept or refuse the brib  e?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Extremely likely to refuse",
+        "2": "Likely to refuse",
+        "3": "Equally likely to refuse or accept",
+        "4": "Likely to accept",
+        "5": "Extremely likely to accept"
+      }
+    },
+  
+    "institutional_response": {
+      "name": "Institutional Response",
+      "question_text": "If you were to complain about the poor quality of a public service, how likely or unlikely is it that the problem would be easily resolved? ",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Extremely unlikely",
+        "2": "Unlikely",
+        "3": "Equally likely or unlikely",
+        "4": "Likely",
+        "5": "Extremely likely"
+      }
+    },
+  
+    "vote_importance": {
+      "name": "Importance of Voting",
+      "question_text": "How important or unimportant is it to vote in every election?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Very unimportant",
+        "4": "Unimportant",
+        "3": "Neither important nor unimportant",
+        "2": "Important",
+        "1": "Very important"
+      }
+    },
+  
+    "pride": {
+      "name": "Pride in Citizenship",
+      "question_text": "How proud are you to be Israeli?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Not at all proud",
+        "4": "Only a little proud",
+        "3": "Moderately proud",
+        "2": "Very proud",
+        "1": "Extremely proud"
+      }
+    },
+  
+    "fair_treatment": {
+      "name": "Fair Treatment by Govt",
+      "question_text": "Do you agree or disagree that you can expect fair treatment from government authorities?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+  
+      }
+    },
+      
+    "democracy_importance": {
+      "name": "Importance of Democracy",
+      "question_text": "How important or unimportant is it to you that you live in a representative democracy?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Very unimportant",
+        "4": "Unimportant",
+        "3": "Neither important nor unimportant",
+        "2": "Important",
+        "1": "Very important"
+      }
+    },
+
+    "norm_judges": {
+      "name": "Judge Appointments",
+      "question_text": "Do you agree or disagree with the following statement: It is appropriate that the representatives of the {government_opposition} ignore the ruling of the High Court of Justice if the ruling goes against their political position.",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+      }
+    },
+  
+    "norm_judges_perception": {
+      "name": "Outparty: Judge Appointments",
+      "question_text": "In your opinion, what percentage of {government_opposition} supporters agree with the following statement: It is appropriate that the representatives of the {government_opposition} ignore the ruling of the High Court of Justice if the ruling goes against their political community.",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "norm_polling": {
+      "name": "Polling Stations",
+      "question_text": "Do you agree or disagree: Members of the {government_opposition} place security cameras in {government_opposition} voting strongholds, to monitor the voting procedures.",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+      }
+    },
+  
+    "norm_polling_perception": {
+      "name": "Outparty: Polling Stations",
+      "question_text": "In your opinion, what percentage of {government_opposition} supporters agree with the following statement: Members of the {government_opposition} place security cameras in {government_opposition}  voting strongholds, to monitor the voting procedures.",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+ 
+    "norm_executive": {
+      "name": "Rule of Law",
+      "question_text": "Do you agree or disagree: It is appropriate that {government_opposition} ignore the attorney general if he harms their ability to achieve their goals.",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+      }
+    },
+  
+    "norm_executive_perception": {
+      "name": "Outparty: Rule of Law",
+      "question_text": "In your opinion, what percentage of {government_opposition} supporters agree with the following statement: It is appropriate that the {government_opposition} ignore the attorney general if he harms their ability to achieve their goals.",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+
+    "norm_censorship": {
+      "name": "Censorship",
+      "question_text": "Do you agree or disagree: The {government_opposition} should have the authority to censor media outlets that spend more of their time attacking the {government_opposition} than the {government_opposition_out}.",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+      }
+    },
+  
+    "norm_censorship_perception": {
+      "name": "Outparty: Censorship",
+      "question_text": "In your opinion, what percentage of {government_opposition} supporters agree with the following statement: The {government_opposition_out} should have the authority to censor media outlets that spend more of their time attacking the {government_opposition_out} than the {government_opposition}.",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "norm_loyalty": {
+      "name": "Loyalty to Party over Police",
+      "question_text": "Do you agree or disagree: When a member of the {government_opposition} claims that he is falsely accused by the police, it is important that the supporters of the {government_opposition} align themselves with the member of the {government_opposition} and not with the police.",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+      }
+    },
+  
+    "norm_loyalty_perception": {
+      "name": "Outparty: Loyalty to Party over Police",
+      "question_text": "In your opinion, what percentage of {government_opposition} supporters agree with the following statement: When a member of the {government_opposition_out} claims that he is falsely accused by the police, it is important that the supporters of the {government_opposition_out} align themselves with the member of the {government_opposition_out} and not with the police.",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "violence1": {
+      "name": "1. Support for Unlawful Protest",
+      "question_text": "Please consider the following scenarios: {name} was convicted of unlawful assembly. He was arrested by the police after leading a demonstration against the {government_opposition} in front of the district court. He did not act to obtain the permits required for the demonstration and refused to leave when asked to do so by the police. Do you support or oppose the actions of {name}?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support"
+  
+      }
+    },
+  
+    "violence2": {
+      "name": "2. Support for Vandalism",
+      "question_text": "{name} Convicted of vandalism. He was arrested by the police after vandalizing several large billboards expressing support for {government_opposition}. Do you support or oppose the actions of {name}?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "9": "not asked"
+      }
+    },
+  
+    "violence3": {
+      "name": "3. Support for Assault",
+      "question_text": "{name} was arrested for assault. He was arrested by police for throwing rocks at peaceful pro-{government_opposition} demonstrators. Although no serious injuries were reported, medical staff at the scene bandaged the head of one of the protesters who was hit by the stone. Do you support or oppose the actions of {name}?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "9": "not asked"
+      }
+    },
+  
+    "violence4": {
+      "name": "4. Support for Arson",
+      "question_text": "{name} was convicted of setting fire to a public building. He was arrested by the police after he tried to escape from a fire he set in the headquarters of one of the {government_opposition} parties. Although he waited until the building closed at night, there were still people in several nearby buildings. Do you support or oppose the actions of {name}?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "9": "not asked"
+      }
+    },
+  
+    "violence5": {
+      "name": "5. Support for Assault with a Deadly Weapon",
+      "question_text": "{name} was convicted of aggravated assault. He was arrested by the police after he drove his car into a crowd of {government_opposition} of the government who were participating in an approved demonstration in a public park. Although no one was killed, several protesters were seriously injured, and one was hospitalized for a month. Do you support or oppose the actions of {name}?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "9": "not asked"
+      }
+    },
+  
+    "violence6": {
+      "name": "6. Support for Murder",
+      "question_text": "{name} was convicted of murder. He was arrested by the police after security camera footage was found in which he was seen stabbing to death a senior activist associated with the {government_opposition}. {name} committed the act because he thought the victim threatened the democratic nature of the country. Do you support or oppose the actions of {name}?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "9": "not asked"
+      }
+    },
+    "birthyr": {
+      "name": "Birth Year",
+      "question_text": "In what year were you born?",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 1900,
+        "max": 2025
+      }
+    },
+  
+    "gender": {
+      "name": "Gender",
+      "question_text": "Are you male or female?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+
+    "IL_edu": {
+      "name": "Education",
+      "question_text": "What is the highest level of education you have completed?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "no-Bagrut (high school diploma)",
+        "2": "Bagrut (high school diploma)",
+        "3": "Non-academic professional degree (Nurse, Technician, Teacher etc.)",
+        "4": "Bachelor's degree",
+        "5": "Master's degree",
+        "6": "Doctorate (including M.D.)"
+      }
+    },
+  
+
+    "race": {
+      "name": "Race",
+      "question_text": "    What ethnic group best describes you? Please select all that apply.",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Just Israeli",
+        "2": "Ashkenazi",
+        "3": "Sepharadi",
+        "4": "Mizrahi",
+        "5": "Russian / Former Soviet Union",
+        "6": "Ethiopian",
+        "7": "Other (specify)",
+        "8": "Prefer not to say"
+      }
+    },
+  
+    "Income": {
+      "name": "Income",
+      "question_text": "What is your monthly gross household income before taxes and deductions?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "4,300 NIS and below",
+        "2": "4,300 NIS to 9,000 NIS",
+        "3": "9,000 NIS to 14,000 NIS",
+        "4": "14,000 NIS to 20,000 NIS",
+        "5": "20,000 NIS to 30,000 NIS",
+        "6": "30,000 NIS to 50,000 NIS",
+        "7": "50,000 NIS and above",
+        "8": "Prefer not to say",
+        "9": "Don't know"
+      }
+    },
+
+     "IL_region": {
+      "name": "Region",
+      "question_text": "In which state do you currently reside?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "North (Tzfat, Acco, Kinneret, Izrael)",
+        "2": "Haifa (including Hadera)",
+        "3": "Tel Aviv / Gush Dan",
+        "4": "Center (Ramle, Petah Tikva, Rehovot, Modiin)",
+        "5": "Jerusalem",
+        "6": "South (Ashkelon, Beer Sheva)",
+        "7": "Judea and Samaria",
+        "8": "HaSharon",
+        "9": "Golan Heights"
+      }
+    },
+    
+ "Ideo10": {
+      "name": "Political Ideology",
+      "question_text": " In political matters, people talk of \"the left\" and \"the right\". How would you place your views on this scale, generally speaking?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "1-Left",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10-Right"
+      }
+    },
+
+    "employ": {
+      "name": "Employment",
+      "question_text": "Which, if any, of the following options best describes your current employment status?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Full-time",
+        "2": "Part-time",
+        "3": "Temporarily unemployed (i.e. changing jobs)",
+        "4": "Retired",
+        "5": "Permanently disabled",
+        "6": "Taking care of home or family",
+        "7": "Student",
+        "8": "Unemployed",
+        "97": "Other option",
+        "99": "I prefer not to say"
+      }
+    },
+
+    "lastvote_il": {
+      "name": " Vote 2022 Knesset elections",
+      "question_text": "Whether or not you voted in the Knesset elections in 2022, which party did you support, if any?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "I did not vote / was not eligible to vote",
+        "2": "Likud (Benjamin Netanyahu)",
+        "3": "Religious Zionist (Bezalel Smotrich)",
+        "4": "National Unity (Benny Gantz)",
+        "5": "Yesh Atid (Yair Lapid)",
+        "6": "Israel Beytenu (Avigdor Lieberman)",
+        "7": "Shas (Aryeh Deri)",
+        "8": "Ra'am (Mansour Abbas)",
+        "9": "United Torah Judaism (Yitzhak Goldknopf)",
+        "10": "Hadash-Ta'al (Ayman Odeah)",
+        "11": "Labor (Merav Michaeli)",
+        "12": "Other",
+        "13": "Prefer not to say",
+        "14": "Can't remember"
+      }
+    }
+  }

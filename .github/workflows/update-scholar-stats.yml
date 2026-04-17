@@ -1,0 +1,81 @@
+name: Update Google Scholar Stats
+
+on:
+  # Run daily at 6 AM UTC
+  schedule:
+    - cron: '0 6 * * *'
+
+  # Allow manual trigger from GitHub UI
+  workflow_dispatch:
+
+  # Allow trigger via repository dispatch (API call)
+  repository_dispatch:
+    types: [update-scholar]
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Fetch Google Scholar Stats
+        id: scholar
+        run: |
+          # Fetch the Google Scholar page
+          HTML=$(curl -s -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36" \
+            "https://scholar.google.com/citations?user=AFD0pYEAAAAJ&hl=en")
+
+          # Extract citations (first gsc_rsb_std element)
+          CITATIONS=$(echo "$HTML" | grep -oP '(?<=<td class="gsc_rsb_std">)[0-9]+' | head -1)
+
+          # Extract h-index (third gsc_rsb_std element)
+          H_INDEX=$(echo "$HTML" | grep -oP '(?<=<td class="gsc_rsb_std">)[0-9]+' | sed -n '3p')
+
+          echo "citations=$CITATIONS" >> $GITHUB_OUTPUT
+          echo "h_index=$H_INDEX" >> $GITHUB_OUTPUT
+          echo "Found: $CITATIONS citations, h-index $H_INDEX"
+
+      - name: Download current data from S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: us-east-1
+        run: |
+          aws s3 cp s3://${{ secrets.S3_BUCKET }}/data/westwood-publications.json ./data.json
+
+      - name: Update JSON with new stats
+        run: |
+          # Install jq if not present
+          sudo apt-get install -y jq
+
+          # Update the JSON file
+          jq --argjson citations "${{ steps.scholar.outputs.citations }}" \
+             --argjson hindex "${{ steps.scholar.outputs.h_index }}" \
+             --arg date "$(date +%Y-%m-%d)" \
+             '.profile.googleCitations = $citations | .profile.hIndex = $hindex | .profile.citationsLastUpdated = $date' \
+             data.json > updated.json
+
+          mv updated.json data.json
+
+          echo "Updated data.json:"
+          jq '.profile | {googleCitations, hIndex, citationsLastUpdated}' data.json
+
+      - name: Upload updated data to S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: us-east-1
+        run: |
+          aws s3 cp data.json s3://${{ secrets.S3_BUCKET }}/data/westwood-publications.json \
+            --content-type "application/json"
+          echo "Uploaded to S3"
+
+      - name: Invalidate CloudFront cache
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: us-east-1
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ secrets.CLOUDFRONT_DIST_ID }} \
+            --paths "/data/westwood-publications.json"
+          echo "CloudFront cache invalidated"

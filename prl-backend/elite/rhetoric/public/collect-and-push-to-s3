@@ -1,0 +1,21 @@
+#!/bin/bash
+cd "$(dirname "$(realpath "$0")")"/ # <-- CD into the parent directory of this script
+source ../../env
+
+# Collect Data
+echo "COLLECTING DATA; SAVING LOCALLY"
+$py3 collect.py
+
+# Check if .tmp directory exists (collect.py creates it only if there are changes)
+if [ ! -d ".tmp" ]; then
+    echo "No changes to export. Exiting."
+    exit 0
+fi
+
+# Push to S3
+echo "PUSHING DATA; SENDING TO S3"
+aws s3 sync .tmp/ s3://prl-americas-pulse/data/elite/ --size-only --storage-class REDUCED_REDUNDANCY
+
+rm -r .tmp/
+
+echo "Done."

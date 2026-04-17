@@ -1,0 +1,744 @@
+{
+  "party_affiliation": {
+    "name": "Party affiliation (IN)",
+    "question_text": "What is your preferred political party?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Bharatiya Janata Party",
+      "2": "Indian National Congress",
+      "3": "Communist Party of India",
+      "4": "Aam Aadmi Party ",
+      "5": "Bahujan Samaj Party",
+      "6": "National People's Party",
+      "7": "Other"
+    }
+  },  
+  
+   "bjp_therm_1": {
+      "name": "BJP thermometer",
+      "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling toward the Bharatiya Janata Party?",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "inc_therm_1": {
+      "name": "INC thermometer",
+      "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling toward the Indian National Congress?",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+
+    "hindu_therm_1": {
+      "name": "Hindu thermometer",
+      "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling towards Hindus in India?",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+
+    "muslim_therm_1": {
+      "name": "Muslim Feeling Thermometer",
+      "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling towards Muslims in India?",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+
+  
+    "general_trust": {
+      "name": "General Trust",
+      "question_text": "Do you think your wallet (or your valuables) would be returned to you if it were found by a stranger? ",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+  
+    "institutional_corruption": {
+      "name": "Institutional Corruption",
+      "question_text": "If a member of Parliament were offered a bribe to influence the awarding of a government contract, do you think that the member of Congress would accept or refuse the bribe?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Extremely likely to refuse",
+        "2": "Likely to refuse",
+        "3": "Equally likely to refuse or accept",
+        "4": "Likely to accept",
+        "5": "Extremely likely to accept"
+      }
+    },
+  
+    "institutional_response": {
+      "name": "Institutional Response",
+      "question_text": "If you were to complain about the poor quality of a public service, how likely or unlikely is it that the problem would be easily resolved? ",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Extremely unlikely",
+        "2": "Unlikely",
+        "3": "Equally likely or unlikely",
+        "4": "Likely",
+        "5": "Extremely likely"
+      }
+    },
+  
+    "vote_importance": {
+      "name": "Importance of Voting",
+      "question_text": "How important or unimportant is it to vote in every election?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Very unimportant",
+        "4": "Unimportant",
+        "3": "Neither important nor unimportant",
+        "2": "Important",
+        "1": "Very important"
+      }
+    },
+  
+    "pride": {
+      "name": "Pride",
+      "question_text": "How proud are you to be Indian?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Not at all proud",
+        "4": "Only a little proud",
+        "3": "Moderately proud",
+        "2": "Very proud",
+        "1": "Extremely proud"
+      }
+    },
+  
+    "fair_treatment": {
+      "name": "Fair Treatment from government authorities",
+      "question_text": "Do you agree or disagree that you can expect fair treatment from government authorities?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+  
+      }
+    },
+      
+    "democracy_importance": {
+      "name": "Importance of Democracy",
+      "question_text": "How important or unimportant is it to you that you live in a representative democracy?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Very unimportant",
+        "4": "Unimportant",
+        "3": "Neither important nor unimportant",
+        "2": "Important",
+        "1": "Very important"
+      }
+    },
+
+    "norm_judges": {
+      "name": "Norm judges",
+      "question_text": "Do you agree or disagree: {inparty: party of the respondent} elected officials should sometimes consider using defamation laws and cases to expel {outparty: party with the lowest thermometer score; random draw if there is a tie}  political opponents and prevent them from standing for elections when those opponents are critical of {inparty}  politicians.",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+      }
+    },
+  
+    "norm_judges_perception": {
+      "name": "Norm judges perception",
+      "question_text": "What percent of {outparty: party with the lowest thermometer score; random draw if there is a tie} voters do you think agree with the following: {inparty: party of the respondent} elected officials should sometimes consider using defamation laws and cases to expel {outparty: party with the lowest thermometer score; random draw if there is a tie}  political opponents and prevent them from standing for elections when those opponents are critical of {inparty}.",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "norm_polling": {
+      "name": "Norm polling",
+      "question_text": "Do you agree or disagree:  {inparty: party of the respondent} politicians  should engage in vote buying ahead of elections in areas that typically support {outparty: party with the lowest thermometer score; random draw if there is a tie}.",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree",
+        "8": "skipped"
+      }
+    },
+  
+    "norm_polling_perception": {
+      "name": "Norm polling perception",
+      "question_text": "What percent of {outparty: party with the lowest thermometer score; random draw if there is a tie} voters do you think agree with the following: {outparty: party with the lowest thermometer score; random draw if there is a tie} politicians should should engage in vote buying ahead of elections in areas that typically support areas that typically support {inparty: party of the respondent}.",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "norm_censorship": {
+      "name": "Norm censorship",
+      "question_text": "Do you agree or disagree with the following: The government should be able to censor media sources that spend more time attacking {inparty: party of the respondent} than {outparty: party with the lowest thermometer score; random draw if there is a tie}.",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+      }
+    },
+  
+    "norm_censorship_perception": {
+      "name": "Norm censorship perception",
+      "question_text": "What percent of {outparty: party with the lowest thermometer score; random draw if there is a tie} voters do you think agree with the following: The government should be able to censor media sources that spend more time attacking {outparty: party with the lowest thermometer score; random draw if there is a tie} than {inparty: party of the respondent}.",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "norm_loyalty": {
+      "name": "Norm loyalty",
+      "question_text": "Do you agree or disagree with the following: When a {inparty: party of the respondent} candidate questions the outcome of an election,  other politicians from {inparty: party of the respondent} should be more loyal to the {inparty: party of the respondent} party than to election rules and the constitution.",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+      }
+    },
+  
+    "norm_loyalty_perception": {
+      "name": "Norm loyalty perception",
+      "question_text": "What percent of {outparty: party with the lowest thermometer score; random draw if there is a tie} voters do you think agree with the following: When a {outparty: party with the lowest thermometer score; random draw if there is a tie} candidate questions the outcome of an election, other politicians from {outparty: party with the lowest thermometer score; random draw if there is a tie} should be more loyal to the {outparty: party with the lowest thermometer score; random draw if there is a tie} party than to election rules and the constitution.",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "violence1": {
+      "name": "Violence 1",
+      "question_text": "Please consider the following scenarios: {name} was arrested for blocking traffic while protesting. He was arrested by police after leading a protest against {outparty: party with the lowest thermometer score; random draw if there is a tie} outside the parliament in New Delhi. He made no effort to leave when asked by police. Do you support or oppose {name}’s actions?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support"
+  
+      }
+    },
+  
+    "violence2": {
+      "name": "Violence 2",
+      "question_text": "{name} was arrested for property damage. He was arrested by police after he vandalized and damaged several large signs expressing support for candidates of the {outparty: party with the lowest thermometer score; random draw if there is a tie} party. Do you support or oppose {name}’s actions?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "9": "not asked"
+      }
+    },
+  
+    "violence3": {
+      "name": "Violence 3",
+      "question_text": "{name} was arrested for assault. He was arrested by police for throwing rocks at peaceful {outparty: party with the lowest thermometer score; random draw if there is a tie} protesters. Although no one was seriously injured, one person was taken to the hospital with a head injury. Do you support or oppose {name}’s actions?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "9": "not asked"
+      }
+    },
+  
+    "violence4": {
+      "name": "Violence 4",
+      "question_text": "{name} was arrested for setting a building on fire. He was arrested by police as he attempted to run from a fire he started at the local {outparty: party with the lowest thermometer score; random draw if there is a tie} headquarters. Although he waited for the building to close for the night, several adjacent buildings were still occupied. Do you support or oppose {name}’s actions?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "9": "not asked"
+      }
+    },
+  
+    "violence5": {
+      "name": "Violence 5",
+      "question_text": "{name} was arrested for assault with a deadly weapon.He was arrested by police after he attacked a  crowd of {outparty: party with the lowest thermometer score; random draw if there is a tie} protesters with a metal rod. Although no one was killed, several individuals were seriously injured and one spent a month in the hospital. Do you support or oppose {name}’s actions?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "8": "skipped",
+        "9": "not asked"
+      }
+    },
+  
+    "violence6": {
+      "name": "Violence 6",
+      "question_text": "{name} was arrested for murder. He was arrested by police after surveillance footage was found showing him stabbing a prominent {outparty: party with the lowest thermometer score; random draw if there is a tie} member to death. {name} targeted the victim because he believed the victim had prevented him from voting in the last election as part of a conspiracy to stop {inparty: party of the respondent} voters. Do you support or oppose {name}’s actions?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "9": "not asked"
+      }
+    },
+  
+    "birthyear": {
+      "name": "Birth Year",
+      "question_text": "Year of Birth",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 1900,
+        "max": 2025
+      }
+    },
+  
+    "gender": {
+      "name": "Gender",
+      "question_text": "Are you male or female?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+
+    "education_india": {
+      "name": "Education",
+      "question_text": "What is the highest level of education you have completed?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Not applicable: Illiterate",
+        "2": "Literate but no formal schooling/School up to 4 years",
+        "3": "Schooling between 5–9 years",
+        "4": "High School pass (SSC/HSC)",
+        "5": "Diploma or college certificate but not a graduate",
+        "6": "Graduate or Post Graduate General (B.A., M. A., B Com, BSC etc.)",
+        "7": "Graduate or Post Graduate Professional (MBA, MD, PhD etc.)"
+    }
+  },
+  
+      "lang_speak_in_1": {
+      "name": "Hindi",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_2": {
+      "name": "Assamese",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_3": {
+      "name": "Bengali",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_4": {
+      "name": "Gujarati",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_5": {
+      "name": "Kannada",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_6": {
+      "name": "Khasi",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_7": {
+      "name": "Konkani",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_8": {
+      "name": "Malayalam",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_9": {
+      "name": "Manipuri",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_10": {
+      "name": "Marathi",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_11": {
+      "name": "Mizo",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_12": {
+      "name": "Oriya",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_13": {
+      "name": "Punjabi",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_14": {
+      "name": "Tamil",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_15": {
+      "name": "Telugu",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_16": {
+      "name": "Urdu",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_990": {
+      "name": "Other",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+
+    "lang_speak_in_991": {
+      "name": "None other than English",
+      "question_text": "Which of the following languages do you speak, in addition to English? Please select all that apply",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "selected",
+        "2": "not selected"
+      }
+    },
+   
+    "caste_in": {
+      "name": "Income",
+      "question_text": "Gross family income is the combined income of all individuals who receive any income, including wages, salaries or rents, before tax deductions. What is your gross monthly family income?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "General",
+        "2": "OBC",
+        "3": "SC",
+        "4": "ST",
+        "96": "Prefer not to answer",
+        "99": "Not applicable"
+      }
+    },
+
+
+    "gross_household_in": {
+      "name": "Household Income",
+      "question_text": "What is your monthly gross household income?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Below Rs 5000",
+        "2": "Rs 5001 - 10000",
+        "3": "Rs. 10001-20000",
+        "4": "Rs. 20001-30000",
+        "5": "Rs. 30001-50000",
+        "6": "Rs. 50001-75000",
+        "7": "Rs. 75001-100000",
+        "8": "Rs. 100001-200000",
+        "9": "Rs. 200001-300000",
+        "10": "Rs. 500001 or above",
+        "11": "Rs. 200001-300000",
+        "96": "Prefer not to say",
+        "98": "Don't know"
+      }
+    },
+
+    "religion_in": {
+      "name": "Religious affiliation",
+      "question_text": "Do you regard yourself as belonging to any particular religion, and if so, to which of these do you belong?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "None - not religious",
+        "2": "Islam",
+        "3": "Christianity",
+        "4": "Hinduism",
+        "5": "Sikhism",
+        "6": "Judaism",
+        "7": "Buddhism",
+        "8": "Jainism",
+        "9": "Zoroastrianism",
+        "10": "Other religion",
+        "99": "Prefer not to say"
+      }
+    },
+
+     "geo_state_in": {
+      "name": "India States",
+      "question_text": "In which state do you currently reside?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Andaman & Nicobar Islands",
+        "2": "Andhra Pradesh",
+        "3": "Arunachal Pradesh",
+        "4": "Assam",
+        "5": "Bihar",
+        "6": "Chandigarh",
+        "7": "Chhattisgarh",
+        "8": "Dadra & Nagar Haveli",
+        "9": "Daman & Diu",
+        "10": "Delhi",
+        "11": "Goa",
+        "12": "Gujarat",
+        "13": "Haryana",
+        "14": "Himachal Pradesh",
+        "15": "Jammu & Kashmir",
+        "16": "Jharkhand",
+        "17": "Karnataka",
+        "18": "Kerala",
+        "19": "Lakshadweep",
+        "20": "Madhya Pradesh",
+        "21": "Maharashtra",
+        "22": "Manipur",
+        "23": "Meghalaya",
+        "24": "Mizoram",
+        "25": "Nagaland",
+        "26": "Odisha",
+        "27": "Puducherry",
+        "28": "Punjab",
+        "29": "Rajasthan",
+        "30": "Sikkim",
+        "31": "Tamil Nadu",
+        "32": "Telangana",
+        "33": "Tripura",
+        "34": "Uttar Pradesh",
+        "35": "Uttarakhand",
+        "36": "West Bengal"
+      }
+    },
+
+    "Ideo10": {
+      "name": "Ideology (IN) -- Left|Right",
+      "question_text": " In political matters, people talk of \"the left\" and \"the right\". How would you place your views on this scale, generally speaking?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "1-Left",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10-Right"
+      }
+    },
+
+    "empl_stat_MENA": {
+      "name": "Employment status",
+      "question_text": "Which, if any, of the following options best describes your current employment status?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Working full time",
+        "2": "Working part time",
+        "3": "Temporarily unemployed (i.e. changing jobs)",
+        "4": "Retired",
+        "5": "Permanently disabled",
+        "6": "Taking care of home or family",
+        "7": "Student",
+        "8": "Unemployed",
+        "97": "Other",
+        "95": "I prefer not to say"
+      }
+    },
+
+    "lastvoteindia": {
+      "name": "Vote 2019 Lok Sabha elections",
+      "question_text": "At the 2019 Lok Sabha elections, which party did you vote for, or perhaps you didn't vote?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Bharatiya Janata Party (BJP)",
+        "2": "Indian National Congress (INC)",
+        "3": "Bahujan Samaj Party (BSP)",
+        "4": "Dravidian Progressive Federation (DMK)",
+        "5": "Other",
+        "6": "Did not vote",
+        "7": "Can't remember",
+        "97": "Prefer not to say"
+      }
+    }
+  }

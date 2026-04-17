@@ -1,0 +1,41 @@
+# Core data processing
+dataset
+pandas
+numpy
+sqlalchemy
+ibis-framework[duckdb]
+pymysql
+
+# Web scraping & HTTP
+requests
+mechanicalsoup
+beautifulsoup4
+trafilatura
+lxml
+playwright
+scrapegraphai
+
+# Configuration
+python-dotenv
+pyyaml
+rtyaml
+json5
+hjson
+
+# APIs & cloud services
+openai
+boto3
+google-api-python-client
+google-auth
+tweepy
+SPARQLWrapper
+
+# Utilities
+tenacity
+nltk
+tiktoken
+orjson
+backoff
+pytz
+cssselect
+scrapelib

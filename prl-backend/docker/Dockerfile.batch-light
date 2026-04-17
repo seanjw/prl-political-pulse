@@ -1,0 +1,31 @@
+FROM python:3.11-slim
+
+# System dependencies (no Chromium needed for light jobs)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    libxml2-dev \
+    libxslt1-dev \
+    default-libmysqlclient-dev \
+    pkg-config \
+    git \
+    rsync \
+    pandoc \
+    texlive-latex-base \
+    texlive-latex-extra \
+    texlive-fonts-recommended \
+    texlive-latex-recommended \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Install Python dependencies
+COPY docker/requirements-batch-light.txt /tmp/requirements.txt
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
+
+# Copy application code
+COPY elite/ /app/elite/
+COPY shared/ /app/shared/
+COPY pulse/ /app/pulse/
+
+ENV PYTHONPATH=/app
+ENV PYTHONUNBUFFERED=1

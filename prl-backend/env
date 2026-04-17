@@ -1,0 +1,4 @@
+py3=/prl/code/.os/python/runtime
+PRLDATASCIENTIST='matthew.t.wetzel@dartmouth.edu'
+PATHTOSECRETS="/prl/.secrets/admin"
+PATH_TO_SECRETS="/prl/.secrets/admin"

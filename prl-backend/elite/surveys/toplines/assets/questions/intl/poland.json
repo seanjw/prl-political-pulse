@@ -1,0 +1,601 @@
+{
+  "party_affiliation": {
+    "name": "Party affiliation (PL)",
+    "question_text": "In the parliamentary election held on 15 October 2023 for the Sejm, which alliance did you vote for?",
+    "type": "qualitative",
+    "options":
+    {
+      "1": "Nonpartisan Local Government Activists",
+      "2": "PL2050/PSL/Third Way",
+      "3": "The Left (NL)",
+      "4": "Law and Justice (PiS))",
+      "5": "Confederation (NN/RN)",
+      "6": "Civic Coalition (PO)",
+      "7": "There is One Poland (PJJ)",
+      "8": "I did not vote in the 2023 parliamentary election for Sejm"
+    }
+  }, 
+   
+  "nlga_therm_1": {
+    "name": "NLGA thermometer",
+    "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling toward PiS/United Right?",
+    "type": "quantitative",
+    "options":
+    {
+      "min": 0,
+      "max": 100
+    }
+  },
+
+  "psl_therm_1": {
+    "name": "PSL thermometer",
+    "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling toward PL2050/PSL/Third Way?",
+    "type": "quantitative",
+    "options":
+    {
+      "min": 0,
+      "max": 100
+    }
+  },
+
+  "nl_therm_1": {
+    "name": "NL thermometer",
+    "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling toward NL/The Left?",
+    "type": "quantitative",
+    "options":
+    {
+      "min": 0,
+      "max": 100
+    }
+  },
+
+  "pis_therm_1": {
+      "name": "PiS thermometer",
+      "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling toward PiS/United Right?",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "nn_therm_1": {
+      "name": "NN thermometer",
+      "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling toward NN/RN/Confederation?",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+
+    "po_therm_1": {
+      "name": "PO thermometer",
+      "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling toward PO/Civic Coalition?",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+
+    "pjj_therm_1": {
+      "name": "PJJ thermometer",
+      "question_text": "We'd like you to rate how you feel towards some groups on a scale of 0 to 100. Zero means very unfavorable and 100 means very favorable. Fifty means you do not feel favorable or unfavorable. How would you rate your feeling toward There is One Poland (PJJ)?",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "general_trust": {
+      "name": "General Trust",
+      "question_text": "Do you think your wallet (or your valuables) would be returned to you if it were found by a stranger? ",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+  
+    "institutional_corruption": {
+      "name": "Institutional Corruption",
+      "question_text": "If a member of (Sejm) were offered a bribe to influence the awarding of a government contract, do you think that the member of (Sejm) would accept or refuse the bribe?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Extremely likely to refuse",
+        "2": "Likely to refuse",
+        "3": "Equally likely to refuse or accept",
+        "4": "Likely to accept",
+        "5": "Extremely likely to accept"
+      }
+    },
+  
+    "institutional_response": {
+      "name": "Institutional Response",
+      "question_text": "If you were to complain about the poor quality of a public service, how likely or unlikely is it that the problem would be easily resolved? ",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Extremely unlikely",
+        "2": "Unlikely",
+        "3": "Equally likely or unlikely",
+        "4": "Likely",
+        "5": "Extremely likely"
+      }
+    },
+  
+    "vote_importance": {
+      "name": "Importance of Voting",
+      "question_text": "How important or unimportant is it to vote in every election?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Very unimportant",
+        "4": "Unimportant",
+        "3": "Neither important nor unimportant",
+        "2": "Important",
+        "1": "Very important"
+      }
+    },
+  
+    "pride": {
+      "name": "Pride",
+      "question_text": "How proud are you to be Polish?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Not at all proud",
+        "4": "Only a little proud",
+        "3": "Moderately proud",
+        "2": "Very proud",
+        "1": "Extremely proud"
+      }
+    },
+  
+    "fair_treatment": {
+      "name": "Fair Treatment by Govt",
+      "question_text": "Do you agree or disagree that you can expect fair treatment from government authorities?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+  
+      }
+    },
+      
+    "democracy_importance": {
+      "name": "Importance of Democracy",
+      "question_text": "How important or unimportant is it to you that you live in a representative democracy?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Very unimportant",
+        "4": "Unimportant",
+        "3": "Neither important nor unimportant",
+        "2": "Important",
+        "1": "Very important"
+      }
+    },
+
+    "norm_1": {
+      "name": "Norm 1",
+      "question_text": "Do you agree or disagree: {inparty: } can remove the judges perceived as loyal to party  {outparty: }.",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+      }
+    },
+  
+    "norm_1_perception": {
+      "name": "Norm 1 perception",
+      "question_text": "What percent of {outparty: } voters do you think agree with the following: {outparty: } can remove the judges perceived as loyal to  {inparty: }.",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "norm_2": {
+      "name": "Norm 2",
+      "question_text": "Do you agree or disagree: {inparty: } has the right to investigate the actions of representatives of  {outparty: }.",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+      }
+    },
+  
+    "norm_2_perception": {
+      "name": "Norm 2 perception",
+      "question_text": "What percent of {outparty: } voters do you think agree with the following: {outparty: } has the right to investigate the actions of representatives of   {inparty: }.",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "norm_3": {
+      "name": "Norm 3",
+      "question_text": "Do you agree or disagree: If the {inparty: } can't get cooperation from {outparty: } politicians to work vis-a-vis the European Union together, the {inparty: } can ignore EU directives or regulations.",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+      }
+    },
+  
+    "norm_3_perception": {
+      "name": "Norm 3 perception",
+      "question_text": "What percent of {outparty: } voters do you think agree with the following: If  {outparty: } can’t get  cooperation from {inparty: } politicians  to work vis-a-vis  the European Union together, {outparty: } politicians can ignore EU directives or regulations.",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "norm_4": {
+      "name": "Norm 4",
+      "question_text": "Do you agree or disagree with the following: The government should be able to censor media sources that are more critical of   {inparty: } than {outparty: }.",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+      }
+    },
+  
+    "norm_4_perception": {
+      "name": "Norm 4 perception",
+      "question_text": "What percent of {outparty: } voters do you think agree with the following: The government should be able to censor media that are more critical of  {outparty: } than {inparty: }.",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+  
+    "norm_5": {
+      "name": "Norm 5",
+      "question_text": "Do you agree or disagree with the following:  {inparty: } politicians have the right to denounce an obstinate opposition as disloyal or treasonous.",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly disagree",
+        "4": "Disagree",
+        "3": "Neither agree nor disagree",
+        "2": "Agree",
+        "1": "Strongly agree"
+      }
+    },
+  
+    "norm_5_perception": {
+      "name": "Norm 5 perception",
+      "question_text": "What percent of {outparty: } voters do you think agree with the following: politicians of {outparty: } have the right to denounce an obstinate opposition as disloyal or treasonous?",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 0,
+        "max": 100
+      }
+    },
+
+    "violence1": {
+      "name": "Violence 1",
+      "question_text": "Please consider the following scenarios: {name} was convicted of protesting without a permit. He was arrested by police after leading a protest against {outparty: party with the lowest thermometer score; random draw if there is a tie} on the grounds of the county courthouse. He made no effort to acquire the necessary permit for the protest and refused to leave when asked by police. Do you support or oppose {name}’s actions?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support"
+  
+      }
+    },
+  
+    "violence2": {
+      "name": "Violence 2",
+      "question_text": "{name} was convicted of vandalism. He was arrested by police after he vandalized several large signs expressing support for candidates of the {outparty: party with the lowest thermometer score; random draw if there is a tie} party. Do you support or oppose {name}’s actions?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "9": "not asked"
+      }
+    },
+  
+    "violence3": {
+      "name": "Violence 3",
+      "question_text": "{name} was convicted of assault. He was arrested by police for throwing rocks at peaceful {outparty: party with the lowest thermometer score; random draw if there is a tie} protesters. Although no one was seriously injured, paramedics bandaged a man with a head wound. Do you support or oppose {name}’s actions?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "9": "not asked"
+      }
+    },
+  
+    "violence4": {
+      "name": "Violence 4",
+      "question_text": "{name} was convicted of arson. He was arrested by police as he attempted to run from a fire he started at the local {outparty: party with the lowest thermometer score; random draw if there is a tie} headquarters. Although he waited for the building to close for the night, several adjacent buildings were still occupied. Do you support or oppose {name}’s actions?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "9": "not asked"
+      }
+    },
+  
+    "violence5": {
+      "name": "Violence 5",
+      "question_text": "{name} was convicted of assault with a deadly weapon. He was arrested by police after driving his car into a crowd of {outparty: party with the lowest thermometer score; random draw if there is a tie} protesters. Although no one was killed, several individuals were seriously injured and one spent a month in the hospital. Do you support or oppose {name}’s actions?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "9": "not asked"
+      }
+    },
+  
+    "violence6": {
+      "name": "Violence 6",
+      "question_text": "{name} was convicted of murder. He was arrested by police after surveillance footage was found showing him stabbing a prominent {outparty: party with the lowest thermometer score; random draw if there is a tie} to death. {name} targeted the victim because he believed the victim had prevented him from voting in the last election as part of a conspiracy to stop {inparty} voters. Do you support or oppose {name}’s actions?",
+      "type": "qualitative",
+      "options":
+      {
+        "5": "Strongly oppose",
+        "4": "Oppose",
+        "3": "Neither support nor oppose",
+        "2": "Support",
+        "1": "Strongly support",
+        "9": "not asked"
+      }
+    },
+  
+    "birthyear": {
+      "name": "Birth Year",
+      "question_text": "Year of Birth",
+      "type": "quantitative",
+      "options":
+      {
+        "min": 1900,
+        "max": 2025
+      }
+    },
+  
+    "gender": {
+      "name": "Gender",
+      "question_text": "Are you male or female?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+
+    "education_age_EU": {
+      "name": "Age finished education",
+      "question_text": "How old were you when you completed your full-time school or university education?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "15 years or younger",
+        "2": "16",
+        "3": "17 to 18 years old",
+        "4": "19",
+        "5": "20 years or older",
+        "6": "Still at school/Full time student",
+        "7": "Can't remember",
+        "99": "Not Applicable"
+      }
+    },
+
+     "education_level2_pl": {
+      "name": "Education qualification",
+      "question_text": "What is your education level?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Primary/Gymnasium",
+        "2": "High school/college",
+        "3": "Vocational",
+        "4": "University",
+        "5": "PhD or higher scientific degree",
+        "6": "Prefer not to answer"
+      }
+    },
+  
+    "race_pl": {
+      "name": "Race (PL)",
+      "question_text": "People with a migration background are all those who immigrated to the territory of the Federal Republic of Germany after 1949, as well as all foreigners born in Germany and all those born in Germany as Germans with at least one parent who immigrated after 1949 or was born in Germany as a foreigner.",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Yes, I am {open}___.",
+        "2": "No, I do not belong to any other ethnic group",
+        "3": "I prefer not to say"
+      }
+    },
+    
+    "NUTS2_region_PL": {
+      "name": "Province",
+      "question_text": "In which province do you live?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Lesser Poland",
+        "2": "Silesian",
+        "3": "Greater Poland",
+        "4": "West Pomeranian",
+        "5": "Lubuskie",
+        "6": "Lower Silesia",
+        "7": "Opole",
+        "8": "Kuyavian-Pomeranian",
+        "9": "Warmian-Masurian",
+        "10": "Pomeranian",
+        "11": "Łódź",
+        "12": "Świętokrzyskie",
+        "13": "Lublin",
+        "14": "Subcarpathian",
+        "15": "Podlaskie",
+        "16": "Mazovian - Warsaw",
+        "17": "Mazovian without Warsaw"
+      }
+    },
+
+    "profile_gross_household_PL": {
+      "name": "Income - gross household",
+      "question_text": "Gross family income is the combined income of all individuals who receive any income, including wages, salaries or rents, before tax deductions. What is your gross annual family income?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Less than PLN 10,000",
+        "2": "10,000 PLN to 24,999 PLN",
+        "3": "25,000 PLN to 49,999 PLN",
+        "4": "50,000 PLN to 74,999 PLN",
+        "5": "75,000 PLN to 99,999 PLN",
+        "6": "100,000 PLN to 124,999 PLN",
+        "7": "125,000 PLN to 149,999 PLN",
+        "8": "150,000 PLN to 174,999 PLN",
+        "9": "175,000 PLN to 199,999 PLN",
+        "10": "200,000 PLN to 224,999 PLN",
+        "11": "225,000 PLN to 249,999 PLN",
+        "12": "250,000 PLN to 349,999 PLN",
+        "13": "350,000 PLN to 449,999 PLN",
+        "14": "450,000 PLN to 649,999 PLN",
+        "15": "650,000 PLN to 849,999 PLN",
+        "16": "850,000 PLN or more",
+        "98": "I don't know",
+        "99": "I prefer not to answer"
+      }
+    },
+
+    "Ideo10": {
+      "name": "Ideology (PL) -- Lewica|Prawica",
+      "question_text": "In general, how would you describe your own political viewpoint?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "1-Left",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10-Right"
+      }
+    },
+
+    "empl_stat_EU": {
+      "name": "Employment status",
+      "question_text": "Which of the following best describes your current employment status?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Working full time",
+        "2": "Working part time",
+        "3": "Temporarily unemployed (i.e. changing jobs)",
+        "4": "Retired",
+        "5": "Permanently disabled",
+        "6": "Looking after my home or family",
+        "7": "Student",
+        "8": "Unemployed",
+        "97": "Other",
+        "99": "I prefer not to say"
+      }
+    },
+
+    "PL_voted2020": {
+      "name": "Turnout 2020 Presidential",
+      "question_text": "Regarding the presidential election held on June 28, 2020, we encountered statements from many people who did not cast their vote. What was the situation in your case regarding the presidential election on June 28, 2020?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "I voted in the presidential election",
+        "2": "I didn't vote because I didn't have the opportunity to do so (e.g., I didn't receive an election package, I'm staying outside my registered address, etc.)",
+        "3": "I did not vote even though I had given the opportunity to do so",
+        "99": "I don't remember/difficult to say",
+        "998": "skipped"
+      }
+    },
+
+    "PL_pastvote2020": {
+      "name": "PL Presidential Election 2020",
+      "question_text": "Which candidate did you vote for in the June 28, 2020 presidential election?",
+      "type": "qualitative",
+      "options":
+      {
+        "1": "Andrzej Duda",
+        "2": "Szymon Holownia",
+        "3": "Robert Biedroń",
+        "4": "Krzysztof Bosak",
+        "5": "Wladyslaw Kosiniak-Kamysz",
+        "6": "Rafal Trzaskowski",
+        "7": "Stanislaw Zoltek",
+        "8": "Miroslaw Piotrowski",
+        "9": "Paweł Tanajno",
+        "10": "Marek Jakubiak",
+        "11": "Waldemar Witkowski",
+        "12": "Other",
+        "13": "I cast a blank or invalid vote",
+        "99": "Don't know",
+        "998": "skipped"
+      }
+    }
+ }
