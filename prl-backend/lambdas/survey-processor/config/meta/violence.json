@@ -1,0 +1,26 @@
+{
+    "violence1": {
+        "label": "Protest w/o Permit",
+        "question": "{name} was convicted of protesting without a permit. He was arrested by police after leading a protest against your party on the grounds of the county courthouse. He made no effort to acquire the necessary permit for the protest and refused to leave when asked by police. Do you support or oppose {name}'s actions?"
+    },
+    "violence2": {
+        "label": "Vandalism",
+        "question": "{name} was convicted of vandalism. He was arrested by police after he vandalized several large signs expressing support for candidates of the other party. Do you support or oppose {name}'s actions?"
+    },
+    "violence3": {
+        "label": "Assault",
+        "question": "{name} was convicted of assault. He was arrested by police for throwing rocks at peaceful protesters from the other party. Although no one was  seriously injured, paramedics bandaged a man with a head wound. Do you support or oppose {name}'s actions?"
+    },
+    "violence4": {
+        "label": "Arson",
+        "question": "{name} was convicted of arson. He was arrested by police as he attempted to run from a fire he started at the local {opposing party}'s headquarters. Although he waited for the building to close for the night, several adjacent buildings were still occupied. Do you support or oppose {name}'s actions?"
+    },
+    "violence5": {
+        "label": "Use of Deadly Weapon",
+        "question": "{name} was convicted of assault with a deadly weapon.He was arrested by police after driving his car into a crowd of protesters from the other party. Although no one was killed, several individuals were seriously injured and one spent a month in the hospital. Do you support or oppose {name}'s actions?"
+    },
+    "violence6": {
+        "label": "Murder",
+        "question": "{name} was convicted of murder. He was arrested by police after surveillance footage was found showing him stabbing a prominent member of the other party to death. {name} targeted the victim because he believed the victim had prevented him from voting in the last election as part of a conspiracy to stop voters from your party. Do you support or oppose {name}'s actions?"
+    }
+}

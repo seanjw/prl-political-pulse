@@ -1,0 +1,194 @@
+/* Violence Dashboard CSS Variables - inherit from main theme */
+.violence-dashboard {
+  --violence-bg-primary: var(--bg-primary);
+  --violence-bg-secondary: var(--bg-secondary);
+  --violence-bg-tertiary: var(--bg-tertiary);
+  --violence-text-primary: var(--text-primary);
+  --violence-text-secondary: var(--text-secondary);
+  --violence-text-muted: var(--text-muted);
+  --violence-accent: #dc2626;
+  --violence-accent-muted: rgba(220, 38, 38, 0.1);
+  --violence-border: var(--border);
+  --violence-border-light: var(--border-light);
+  --violence-map-stroke: rgba(0, 0, 0, 0.2);
+  --violence-tooltip-bg: var(--bg-secondary);
+}
+
+/* Dark mode overrides */
+:root.dark .violence-dashboard {
+  --violence-accent-muted: rgba(220, 38, 38, 0.15);
+  --violence-map-stroke: rgba(255, 255, 255, 0.3);
+}
+
+/* Violence Dashboard Specific Styles */
+.violence-dashboard {
+  background: var(--violence-bg-primary);
+  min-height: calc(100vh - 80px);
+}
+
+/* Map styles */
+.violence-dashboard .rsm-geography {
+  transition: fill 0.2s ease;
+  outline: none;
+}
+
+.violence-dashboard .rsm-geography:focus {
+  outline: none;
+}
+
+/* Recharts overrides */
+.violence-dashboard .recharts-cartesian-grid-horizontal line,
+.violence-dashboard .recharts-cartesian-grid-vertical line {
+  stroke: var(--violence-border);
+  stroke-opacity: 0.5;
+}
+
+.violence-dashboard .recharts-text {
+  fill: var(--violence-text-muted);
+  font-size: 11px;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.violence-dashboard .recharts-legend-item-text {
+  color: var(--violence-text-secondary) !important;
+  font-size: 12px !important;
+}
+
+.violence-dashboard .recharts-tooltip-wrapper {
+  outline: none;
+}
+
+/* Custom classes */
+.violence-section-header {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--violence-text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.violence-stat-value {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--violence-text-primary);
+}
+
+.violence-stat-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--violence-text-muted);
+  margin-top: 0.25rem;
+}
+
+.violence-card {
+  background: var(--violence-bg-secondary);
+  border: 1px solid var(--violence-border);
+  border-radius: 4px;
+}
+
+.violence-filter-label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--violence-text-secondary);
+}
+
+.violence-filter-option {
+  font-size: 0.85rem;
+  color: var(--violence-text-muted);
+  transition: color 0.15s ease;
+}
+
+.violence-filter-option:hover {
+  color: var(--violence-text-primary);
+}
+
+/* Tooltip */
+.violence-map-tooltip {
+  background: var(--violence-tooltip-bg);
+  border: 1px solid var(--violence-border);
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-size: 13px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Detail panel */
+.violence-detail-panel {
+  background: var(--violence-bg-secondary);
+  border-left: 1px solid var(--violence-border);
+}
+
+/* Animations */
+@keyframes violenceFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.violence-fade-in {
+  animation: violenceFadeIn 0.3s ease;
+}
+
+/* Range slider styling */
+.violence-dashboard input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--violence-border);
+  border-radius: 2px;
+  height: 4px;
+  cursor: pointer;
+}
+
+.violence-dashboard input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  background: #f97316;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid var(--violence-bg-secondary);
+}
+
+.violence-dashboard input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  background: #f97316;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid var(--violence-bg-secondary);
+}
+
+.violence-dashboard input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 2px;
+}
+
+.violence-dashboard input[type="range"]::-moz-range-track {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--violence-border);
+}
+
+/* Violence scrollbar */
+.violence-dashboard ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.violence-dashboard ::-webkit-scrollbar-track {
+  background: var(--violence-bg-secondary);
+}
+
+.violence-dashboard ::-webkit-scrollbar-thumb {
+  background: var(--violence-border-light);
+  border-radius: 4px;
+}
+
+.violence-dashboard ::-webkit-scrollbar-thumb:hover {
+  background: #525252;
+}

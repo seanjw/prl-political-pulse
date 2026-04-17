@@ -1,0 +1,20 @@
+---
+title: "News: PRL at NGA’s Disagree Better Convening"
+date: "2023-09-12"
+url: "https://polarizationresearchlab.org/2023/09/12/prl-at-ngas-disagree-better-convening/"
+category: "Article"
+thumbnail: "/news/images/news-prl-at-ngas-disagree-better-convening-0.png"
+description: "September 12, 2023 -- PRL Director Sean Westwood presented on a panel in Manchester, NH, at the National Governors Association Disagree Better Convening. The event featured discussions with leading, b"
+---
+
+September 12, 2023 — PRL Director Sean Westwood presented on a panel in Manchester, NH, at the National Governors Association [Disagree Better](https://www.nga.org/disagree-better/) Convening. The event featured discussions with leading, bipartisan experts and focused on “Correcting Misperceptions and Highlighting Commonalities.” The NGA civility initiative, led by NGA Chair Governor Cox (R-UT) and Vice-Chair Governor Polis (D-CO), aligns with PRL’s research demonstrating that reducing partisan animosity and correcting misperceptions in America requires an elite-led approach. In fact, correcting misperceptions among citizens may first necessitate correcting a misperception among elites that negativity is an effective strategy.
+
+Our work shows that public misperceptions are rampant. PRL data from our weekly [America’s Political Pulse](https://polarizationresearchlab.org/americas-political-pulse/) survey reveals that both Democrats and Republicans exaggerate the extent to which the out-party supports democratic norm violations and political violence. For example, Democrats and Republicans think nearly 60% of the opposing side would support a person charged with politically motivated assault on a member of their party (57.5% for Democrats and 60% for Republicans). The actual numbers are up to 30 times smaller–1.9% of Democrats and 3% of Republicans would actually support the person charged with the crime. The good news is that real support for norm violations and political violence aren’t as high as many perceive; the bad news is that misperceptions are helping to fuel partisan animosity in America.
+
+PRL’s work is aimed at garnering a better understanding of why and how partisan animosity occurs. We currently capture weekly attitudes of Americans on affective polarization, norms, political violence, social trust, and more, and we are working on our second large-scale data project to classify elite rhetoric. Our research demonstrates that current levels of affective polarization are likely a response to elite rhetoric, but we know little about the dynamics of that relationship, including which politicians are most responsible for damaging language and why, and how rhetoric shifts in response to political events or during election cycles. 
+
+The reality is that many elites and engaged citizens believe that “going negative” is the most effective strategy for winning an election. PRL recently conducted a review of the [academic research on negative campaigning](https://polarizationresearchlab.org/the-ineffectiveness-of-negative-campaigning/), which reveals that there is little evidence of a net benefit for politicians that attack fellow candidates, and it is certainly not worth the exorbitant costs associated with running attack ads. The research demonstrates that any small reduction in positive feelings for the subject of an attack are outweighed by reductions in positive feelings for the attacker. And even when small positive effects of negative campaigns are found, such as increasing awareness of an election occurring, these effects are case specific and short lived. 
+
+For the majority of candidates, running negative campaign ads may appear strategic in the moment and not be motivated by any desire to harm society writ large, but the reality is that there is mounting evidence demonstrating that inflammatory elite rhetoric is indeed contributing to societal divides, as well as distrust in government and institutions.
+
+The critical importance of good research and evidence is clear, and PRL’s future work studying elite communication and public attitudes will help concerned groups devise effective interventions. 

@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Lambda function to fetch Google Scholar citation stats daily
+
+Globals:
+  Function:
+    Timeout: 60
+    MemorySize: 256
+    Runtime: python3.11
+
+Resources:
+  ScholarStatsFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: scholar-stats-updater
+      CodeUri: .
+      Handler: handler.handler
+      Environment:
+        Variables:
+          S3_BUCKET: YOUR_S3_BUCKET
+          SCHOLAR_USER_ID: AFD0pYEAAAAJ
+      Policies:
+        - S3ReadPolicy:
+            BucketName: YOUR_S3_BUCKET
+        - S3WritePolicy:
+            BucketName: YOUR_S3_BUCKET
+      Events:
+        DailySchedule:
+          Type: Schedule
+          Properties:
+            Schedule: rate(1 day)
+            Description: Fetch Google Scholar stats daily
+            Enabled: true
+
+Outputs:
+  ScholarStatsFunctionArn:
+    Description: ARN of the Scholar Stats function
+    Value: !GetAtt ScholarStatsFunction.Arn

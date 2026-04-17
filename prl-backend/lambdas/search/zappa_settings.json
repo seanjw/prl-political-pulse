@@ -1,0 +1,31 @@
+{
+    "dev": {
+        "app_function": "app.backend.routes.routes.app",
+        "project_name": "legislator-sear",
+        "runtime": "python3.11",
+        "s3_bucket": "YOUR_ZAPPA_S3_BUCKET",
+        "aws_region": "us-east-1",
+        "memory_size": 10240,
+        "timeout_seconds": 300,
+        "keep_warm": true,
+        "keep_warm_expression": "rate(5 minutes)",
+        "log_level": "DEBUG",
+        "binary_support": true,
+        "environment_variables": {
+            "AWS_REGION": "us-east-1",
+            "DB_DIALECT": "mysql+pymysql",
+            "DB_USER": "${DB_USER}",
+            "DB_PASSWORD": "${DB_PASSWORD}",
+            "DB_HOST": "${DB_HOST}",
+            "DB_PORT": "3306",
+            "DB_NAME": "elite",
+            "FLASK_ENV": "production",
+            "S3_BUCKET": "${S3_BUCKET}"
+        },
+        "cors": {
+            "allowed_origins": ["*"],
+            "allowed_headers": ["Content-Type", "X-Amz-Date", "Authorization", "X-Api-Key", "X-Amz-Security-Token"],
+            "allowed_methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
+        }
+    }
+}

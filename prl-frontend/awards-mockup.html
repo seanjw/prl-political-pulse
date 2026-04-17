@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Primary Awards — Visual Gallery</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg-deep: #f5f6f8;
+    --bg-card: #ffffff;
+    --border-subtle: rgba(0,0,0,0.07);
+    --border-med: rgba(0,0,0,0.12);
+    --text-primary: #1a1d26;
+    --text-secondary: #5c6070;
+    --text-dim: #9198a8;
+    --gold: #9a7b2d;
+    --gold-light: #b8922e;
+    --positive: #059669;
+    --positive-light: #34d399;
+    --negative: #dc2626;
+    --negative-light: #f87171;
+    --cat-policy: #4B5563;
+    --cat-attack-policy: #2563EB;
+    --cat-accomplishments: #DB2777;
+    --cat-bipartisanship: #059669;
+    --cat-attack-personal: #EA580C;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg-deep);
+    color: var(--text-primary);
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 32px 100px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Header */
+  .page-header {
+    text-align: center;
+    margin-bottom: 70px;
+    animation: fadeUp 0.8s ease-out both;
+  }
+  .page-header .overline {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  .page-header .overline::before,
+  .page-header .overline::after {
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  }
+  .page-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+  }
+  .page-header .subtitle {
+    font-size: 15px;
+    color: var(--text-secondary);
+    margin-top: 12px;
+    font-weight: 300;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+
+  /* Ribbon SVG */
+  .ribbon-svg { width: 36px; height: 50px; flex-shrink: 0; }
+
+  /* Section */
+  .section { margin-bottom: 64px; }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+  .section-header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .section-header .count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-left: auto;
+    letter-spacing: 0.08em;
+  }
+
+  .awards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+
+  /* Award Card */
+  .award-card {
+    position: relative;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    padding: 14px 16px;
+    overflow: hidden;
+    transition: transform 0.3s cubic-bezier(0.23,1,0.32,1), border-color 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeUp 0.5s ease-out both;
+  }
+  .award-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    border-radius: 14px 14px 0 0;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  .award-card { box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+  .award-card:hover { transform: translateY(-3px); border-color: var(--border-med); }
+  .award-card:hover::before { opacity: 1; }
+  .award-card.positive::before { background: linear-gradient(90deg, var(--positive), transparent); }
+  .award-card.positive:hover { box-shadow: 0 8px 24px -6px rgba(5,150,105,0.18); }
+  .award-card.negative::before { background: linear-gradient(90deg, var(--negative), transparent); }
+  .award-card.negative:hover { box-shadow: 0 8px 24px -6px rgba(220,38,38,0.18); }
+  .award-card.special::before { background: linear-gradient(90deg, var(--gold), transparent); }
+  .award-card.special:hover { box-shadow: 0 8px 24px -6px rgba(154,123,45,0.22); }
+
+  .card-top { display: flex; align-items: flex-start; gap: 12px; }
+  .card-meta { flex: 1; min-width: 0; }
+  .award-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 2px;
+  }
+  .award-card.positive .award-name { color: var(--positive); }
+  .award-card.negative .award-name { color: var(--negative); }
+  .award-card.special .award-name { color: var(--gold); }
+  .award-category-tag { display: none; }
+  .cat-dot { display: none; }
+  .award-description {
+    font-size: 12px;
+    color: var(--text-secondary);
+    line-height: 1.45;
+    font-weight: 300;
+  }
+  .award-description strong {
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  .award-percentile { display: none; }
+
+  /* Stagger */
+  .award-card:nth-child(1) { animation-delay: 0.05s; }
+  .award-card:nth-child(2) { animation-delay: 0.1s; }
+  .award-card:nth-child(3) { animation-delay: 0.15s; }
+  .award-card:nth-child(4) { animation-delay: 0.2s; }
+  .award-card:nth-child(5) { animation-delay: 0.25s; }
+  .award-card:nth-child(6) { animation-delay: 0.3s; }
+
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(0,0,0,0.1), transparent);
+    margin: 56px 0;
+  }
+
+  /* Profile mockup */
+  .profile-section { margin-top: 80px; }
+  .profile-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 16px;
+    overflow: hidden;
+    max-width: 520px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .profile-card-inner { padding: 28px; }
+  .profile-name-row { display: flex; align-items: center; gap: 14px; margin-bottom: 6px; }
+  .profile-avatar {
+    width: 48px; height: 48px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px; font-weight: 700; color: #fff; flex-shrink: 0;
+  }
+  .profile-name { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; }
+  .profile-meta {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 13px; color: var(--text-secondary);
+    margin-bottom: 18px; padding-left: 62px;
+  }
+  .profile-meta .dot { width: 3px; height: 3px; border-radius: 50%; background: #c0c4ce; }
+  .profile-pills-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--text-dim); margin-bottom: 10px;
+  }
+  .profile-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 5px 11px; border-radius: 20px;
+    font-size: 12px; font-weight: 600;
+    border: 1px solid; cursor: default;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .pill:hover { transform: translateY(-1px); }
+  .pill .pill-ribbon { width: 14px; height: 20px; flex-shrink: 0; }
+  .pill.positive { background: rgba(5,150,105,0.08); color: #047857; border-color: rgba(5,150,105,0.25); }
+  .pill.positive:hover { box-shadow: 0 4px 16px rgba(5,150,105,0.12); }
+  .pill.negative { background: rgba(220,38,38,0.07); color: #b91c1c; border-color: rgba(220,38,38,0.2); }
+  .pill.negative:hover { box-shadow: 0 4px 16px rgba(220,38,38,0.12); }
+  .pill.special { background: rgba(154,123,45,0.08); color: var(--gold); border-color: rgba(154,123,45,0.25); }
+  .pill.special:hover { box-shadow: 0 4px 16px rgba(154,123,45,0.12); }
+
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 20px;
+    justify-content: center; margin-bottom: 48px;
+  }
+  .legend-item { display: flex; align-items: center; gap: 7px; font-size: 12px; color: var(--text-secondary); }
+  .legend-dot { width: 10px; height: 10px; border-radius: 3px; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes shimmer {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.1); border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<!-- Inline SVG ribbon templates -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+  <!-- Green (positive) rosette ribbon -->
+  <symbol id="ribbon-positive" viewBox="0 0 64 90">
+    <!-- Tails -->
+    <path d="M18 52 L18 86 L25 78 L32 86 L32 52Z" fill="#047857" opacity="0.85"/>
+    <path d="M32 52 L32 86 L39 78 L46 86 L46 52Z" fill="#059669" opacity="0.85"/>
+    <!-- Tail notches -->
+    <path d="M18 86 L25 78 L32 86" fill="none" stroke="#034e3a" stroke-width="0.5" opacity="0.5"/>
+    <path d="M32 86 L39 78 L46 86" fill="none" stroke="#034e3a" stroke-width="0.5" opacity="0.5"/>
+    <!-- Rosette outer pleats -->
+    <g opacity="0.9">
+      <ellipse cx="32" cy="30" rx="24" ry="24" fill="none" stroke="#059669" stroke-width="2.5"/>
+      <!-- Pleat petals -->
+      <g fill="#059669">
+        <path d="M32 6 L35 12 L32 10 L29 12Z"/>
+        <path d="M44.5 8.5 L44 15 L42 12.5 L39.5 14.5Z"/>
+        <path d="M53.5 18.5 L48 22 L47 19 L44 20Z"/>
+        <path d="M56 30 L50 30 L49.5 27 L47 28.5Z"/>
+        <path d="M53.5 41.5 L48 38 L47 41 L44 40Z"/>
+        <path d="M44.5 51.5 L44 45 L42 47.5 L39.5 45.5Z"/>
+        <path d="M32 54 L35 48 L32 50 L29 48Z"/>
+        <path d="M19.5 51.5 L20 45 L22 47.5 L24.5 45.5Z"/>
+        <path d="M10.5 41.5 L16 38 L17 41 L20 40Z"/>
+        <path d="M8 30 L14 30 L14.5 27 L17 28.5Z"/>
+        <path d="M10.5 18.5 L16 22 L17 19 L20 20Z"/>
+        <path d="M19.5 8.5 L20 15 L22 12.5 L24.5 14.5Z"/>
+      </g>
+    </g>
+    <!-- Rosette inner ring -->
+    <circle cx="32" cy="30" r="17" fill="#065f46" stroke="#34d399" stroke-width="1" opacity="0.9"/>
+    <!-- Center disc -->
+    <circle cx="32" cy="30" r="12" fill="#059669"/>
+    <circle cx="32" cy="30" r="11" fill="none" stroke="#34d399" stroke-width="0.5" opacity="0.6"/>
+    <!-- Star in center -->
+    <polygon points="32,21 34.5,27 41,27.5 36,32 37.5,38.5 32,35 26.5,38.5 28,32 23,27.5 29.5,27" fill="#34d399" opacity="0.9"/>
+  </symbol>
+
+  <!-- Red (negative) rosette ribbon -->
+  <symbol id="ribbon-negative" viewBox="0 0 64 90">
+    <path d="M18 52 L18 86 L25 78 L32 86 L32 52Z" fill="#991b1b" opacity="0.85"/>
+    <path d="M32 52 L32 86 L39 78 L46 86 L46 52Z" fill="#b91c1c" opacity="0.85"/>
+    <path d="M18 86 L25 78 L32 86" fill="none" stroke="#7f1d1d" stroke-width="0.5" opacity="0.5"/>
+    <path d="M32 86 L39 78 L46 86" fill="none" stroke="#7f1d1d" stroke-width="0.5" opacity="0.5"/>
+    <g opacity="0.9">
+      <ellipse cx="32" cy="30" rx="24" ry="24" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+      <g fill="#dc2626">
+        <path d="M32 6 L35 12 L32 10 L29 12Z"/>
+        <path d="M44.5 8.5 L44 15 L42 12.5 L39.5 14.5Z"/>
+        <path d="M53.5 18.5 L48 22 L47 19 L44 20Z"/>
+        <path d="M56 30 L50 30 L49.5 27 L47 28.5Z"/>
+        <path d="M53.5 41.5 L48 38 L47 41 L44 40Z"/>
+        <path d="M44.5 51.5 L44 45 L42 47.5 L39.5 45.5Z"/>
+        <path d="M32 54 L35 48 L32 50 L29 48Z"/>
+        <path d="M19.5 51.5 L20 45 L22 47.5 L24.5 45.5Z"/>
+        <path d="M10.5 41.5 L16 38 L17 41 L20 40Z"/>
+        <path d="M8 30 L14 30 L14.5 27 L17 28.5Z"/>
+        <path d="M10.5 18.5 L16 22 L17 19 L20 20Z"/>
+        <path d="M19.5 8.5 L20 15 L22 12.5 L24.5 14.5Z"/>
+      </g>
+    </g>
+    <circle cx="32" cy="30" r="17" fill="#7f1d1d" stroke="#f87171" stroke-width="1" opacity="0.9"/>
+    <circle cx="32" cy="30" r="12" fill="#dc2626"/>
+    <circle cx="32" cy="30" r="11" fill="none" stroke="#f87171" stroke-width="0.5" opacity="0.6"/>
+    <polygon points="32,21 34.5,27 41,27.5 36,32 37.5,38.5 32,35 26.5,38.5 28,32 23,27.5 29.5,27" fill="#f87171" opacity="0.9"/>
+  </symbol>
+
+  <!-- Gold (special) rosette ribbon -->
+  <symbol id="ribbon-special" viewBox="0 0 64 90">
+    <path d="M18 52 L18 86 L25 78 L32 86 L32 52Z" fill="#92702a" opacity="0.85"/>
+    <path d="M32 52 L32 86 L39 78 L46 86 L46 52Z" fill="#a67c2e" opacity="0.85"/>
+    <path d="M18 86 L25 78 L32 86" fill="none" stroke="#6b521f" stroke-width="0.5" opacity="0.5"/>
+    <path d="M32 86 L39 78 L46 86" fill="none" stroke="#6b521f" stroke-width="0.5" opacity="0.5"/>
+    <g opacity="0.9">
+      <ellipse cx="32" cy="30" rx="24" ry="24" fill="none" stroke="#c9a84c" stroke-width="2.5"/>
+      <g fill="#c9a84c">
+        <path d="M32 6 L35 12 L32 10 L29 12Z"/>
+        <path d="M44.5 8.5 L44 15 L42 12.5 L39.5 14.5Z"/>
+        <path d="M53.5 18.5 L48 22 L47 19 L44 20Z"/>
+        <path d="M56 30 L50 30 L49.5 27 L47 28.5Z"/>
+        <path d="M53.5 41.5 L48 38 L47 41 L44 40Z"/>
+        <path d="M44.5 51.5 L44 45 L42 47.5 L39.5 45.5Z"/>
+        <path d="M32 54 L35 48 L32 50 L29 48Z"/>
+        <path d="M19.5 51.5 L20 45 L22 47.5 L24.5 45.5Z"/>
+        <path d="M10.5 41.5 L16 38 L17 41 L20 40Z"/>
+        <path d="M8 30 L14 30 L14.5 27 L17 28.5Z"/>
+        <path d="M10.5 18.5 L16 22 L17 19 L20 20Z"/>
+        <path d="M19.5 8.5 L20 15 L22 12.5 L24.5 14.5Z"/>
+      </g>
+    </g>
+    <circle cx="32" cy="30" r="17" fill="#7a5c1f" stroke="#e0c878" stroke-width="1" opacity="0.9"/>
+    <circle cx="32" cy="30" r="12" fill="#c9a84c"/>
+    <circle cx="32" cy="30" r="11" fill="none" stroke="#e0c878" stroke-width="0.5" opacity="0.6"/>
+    <polygon points="32,21 34.5,27 41,27.5 36,32 37.5,38.5 32,35 26.5,38.5 28,32 23,27.5 29.5,27" fill="#e0c878" opacity="0.9"/>
+  </symbol>
+
+  <!-- Tiny pill-sized ribbons -->
+  <symbol id="ribbon-pill-positive" viewBox="0 0 64 90">
+    <path d="M18 52 L18 86 L25 78 L32 86 L32 52Z" fill="#047857"/>
+    <path d="M32 52 L32 86 L39 78 L46 86 L46 52Z" fill="#059669"/>
+    <circle cx="32" cy="30" r="22" fill="#059669"/>
+    <circle cx="32" cy="30" r="16" fill="#065f46" stroke="#34d399" stroke-width="1"/>
+    <polygon points="32,20 34.8,27 42,27.5 36.5,32.5 38,40 32,36 26,40 27.5,32.5 22,27.5 29.2,27" fill="#34d399"/>
+  </symbol>
+  <symbol id="ribbon-pill-negative" viewBox="0 0 64 90">
+    <path d="M18 52 L18 86 L25 78 L32 86 L32 52Z" fill="#991b1b"/>
+    <path d="M32 52 L32 86 L39 78 L46 86 L46 52Z" fill="#b91c1c"/>
+    <circle cx="32" cy="30" r="22" fill="#dc2626"/>
+    <circle cx="32" cy="30" r="16" fill="#7f1d1d" stroke="#f87171" stroke-width="1"/>
+    <polygon points="32,20 34.8,27 42,27.5 36.5,32.5 38,40 32,36 26,40 27.5,32.5 22,27.5 29.2,27" fill="#f87171"/>
+  </symbol>
+  <symbol id="ribbon-pill-special" viewBox="0 0 64 90">
+    <path d="M18 52 L18 86 L25 78 L32 86 L32 52Z" fill="#92702a"/>
+    <path d="M32 52 L32 86 L39 78 L46 86 L46 52Z" fill="#a67c2e"/>
+    <circle cx="32" cy="30" r="22" fill="#c9a84c"/>
+    <circle cx="32" cy="30" r="16" fill="#7a5c1f" stroke="#e0c878" stroke-width="1"/>
+    <polygon points="32,20 34.8,27 42,27.5 36.5,32.5 38,40 32,36 26,40 27.5,32.5 22,27.5 29.2,27" fill="#e0c878"/>
+  </symbol>
+</svg>
+
+<div class="container">
+
+  <!-- Header -->
+  <header class="page-header">
+    <div class="overline">America's Political Pulse</div>
+    <h1>Candidate Awards</h1>
+    <p class="subtitle">
+      Recognizing exceptional candidates in the top and bottom 3% of each rhetoric category.
+      Requires 50+ tracked statements to qualify.
+    </p>
+  </header>
+
+  <!-- Legend -->
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background: var(--cat-policy);"></div>Policy Discussion</div>
+    <div class="legend-item"><div class="legend-dot" style="background: var(--cat-attack-policy);"></div>Policy Criticism</div>
+    <div class="legend-item"><div class="legend-dot" style="background: var(--cat-accomplishments);"></div>Accomplishments</div>
+    <div class="legend-item"><div class="legend-dot" style="background: var(--cat-bipartisanship);"></div>Bipartisanship</div>
+    <div class="legend-item"><div class="legend-dot" style="background: var(--cat-attack-personal);"></div>Personal Attacks</div>
+  </div>
+
+  <!-- POSITIVE AWARDS -->
+  <div class="section">
+    <div class="section-header">
+      <svg class="ribbon-svg" style="width:32px;height:44px;"><use href="#ribbon-positive"/></svg>
+      <h2>Positive Awards</h2>
+      <span class="count">6 AWARDS</span>
+    </div>
+
+    <div class="awards-grid">
+      <div class="award-card positive">
+        <div class="card-top">
+          <svg class="ribbon-svg"><use href="#ribbon-positive"/></svg>
+          <div class="card-meta">
+            <div class="award-name">Policy Discussion Leader</div>
+            <div class="award-description"><strong>Top 3% in policy discussion:</strong> engaging meaningfully with political issues without resorting to attacks.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="award-card positive">
+        <div class="card-top">
+          <svg class="ribbon-svg"><use href="#ribbon-positive"/></svg>
+          <div class="card-meta">
+            <div class="award-name">Policy Criticism Leader</div>
+            <div class="award-description"><strong>Top 3% in policy criticism:</strong> holding opponents accountable on issues rather than the person.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="award-card positive">
+        <div class="card-top">
+          <svg class="ribbon-svg"><use href="#ribbon-positive"/></svg>
+          <div class="card-meta">
+            <div class="award-name">Accomplishments Leader</div>
+            <div class="award-description"><strong>Top 3% in accomplishments:</strong> taking credit for legislation, funding, and tangible deliverables.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="award-card positive">
+        <div class="card-top">
+          <svg class="ribbon-svg"><use href="#ribbon-positive"/></svg>
+          <div class="card-meta">
+            <div class="award-name">Bipartisanship Leader</div>
+            <div class="award-description"><strong>Top 3% in bipartisan rhetoric:</strong> actively promoting collaboration and common ground across party lines.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="award-card positive">
+        <div class="card-top">
+          <svg class="ribbon-svg"><use href="#ribbon-positive"/></svg>
+          <div class="card-meta">
+            <div class="award-name">Most Civil Candidate</div>
+            <div class="award-description"><strong>Bottom 3% in personal attacks:</strong> maintaining an exceptionally civil and respectful tone in public discourse.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="award-card special">
+        <div class="card-top">
+          <svg class="ribbon-svg"><use href="#ribbon-special"/></svg>
+          <div class="card-meta">
+            <div class="award-name" style="color: var(--gold);">Zero Personal Attacks</div>
+            <div class="award-description"><strong style="font-weight:700 !important;">A rare distinction:</strong> zero personal attacks across all tracked public statements.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- NEGATIVE AWARDS -->
+  <div class="section">
+    <div class="section-header">
+      <svg class="ribbon-svg" style="width:32px;height:44px;"><use href="#ribbon-negative"/></svg>
+      <h2>Negative Awards</h2>
+      <span class="count">5 AWARDS</span>
+    </div>
+
+    <div class="awards-grid">
+      <div class="award-card negative">
+        <div class="card-top">
+          <svg class="ribbon-svg"><use href="#ribbon-negative"/></svg>
+          <div class="card-meta">
+            <div class="award-name">Least Policy-Focused</div>
+            <div class="award-description"><strong>Bottom 3% in policy discussion:</strong> rarely engaging with substantive political issues in public communications.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="award-card negative">
+        <div class="card-top">
+          <svg class="ribbon-svg"><use href="#ribbon-negative"/></svg>
+          <div class="card-meta">
+            <div class="award-name">Least Policy-Critical</div>
+            <div class="award-description"><strong>Bottom 3% in policy criticism:</strong> least likely to challenge opponents on their positions or policy track record.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="award-card negative">
+        <div class="card-top">
+          <svg class="ribbon-svg"><use href="#ribbon-negative"/></svg>
+          <div class="card-meta">
+            <div class="award-name">Fewest Accomplishment Claims</div>
+            <div class="award-description"><strong>Bottom 3% in accomplishment claims:</strong> rarely communicating concrete achievements or legislative wins.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="award-card negative">
+        <div class="card-top">
+          <svg class="ribbon-svg"><use href="#ribbon-negative"/></svg>
+          <div class="card-meta">
+            <div class="award-name">Least Bipartisan</div>
+            <div class="award-description"><strong>Bottom 3% in bipartisan rhetoric:</strong> least likely to promote cross-party collaboration or common ground.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="award-card negative">
+        <div class="card-top">
+          <svg class="ribbon-svg"><use href="#ribbon-negative"/></svg>
+          <div class="card-meta">
+            <div class="award-name">Least Civil Candidate</div>
+            <div class="award-description"><strong>Top 3% in personal attacks:</strong> most frequently attacking or disrespecting individuals and parties rather than policies.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- COMPACT PILL MOCKUP -->
+  <div class="profile-section">
+    <div class="section-header">
+      <svg class="ribbon-svg" style="width:32px;height:44px;"><use href="#ribbon-positive"/></svg>
+      <h2>Candidate Profile View</h2>
+      <span class="count">COMPACT PILLS</span>
+    </div>
+
+    <div class="profile-card">
+      <div class="profile-card-inner">
+        <div class="profile-name-row">
+          <div class="profile-avatar" style="background: linear-gradient(135deg, #2563eb, #1e40af);">JM</div>
+          <div><div class="profile-name">Rep. Jane Mitchell</div></div>
+        </div>
+        <div class="profile-meta">
+          <span style="color:#60a5fa;">Democrat</span>
+          <span class="dot"></span><span>CA-45</span>
+          <span class="dot"></span><span>Incumbent</span>
+          <span class="dot"></span><span>312 statements</span>
+        </div>
+        <div class="profile-pills-label">Awards</div>
+        <div class="profile-pills">
+          <span class="pill positive"><svg class="pill-ribbon"><use href="#ribbon-pill-positive"/></svg>Policy Discussion Leader</span>
+          <span class="pill positive"><svg class="pill-ribbon"><use href="#ribbon-pill-positive"/></svg>Bipartisanship Leader</span>
+          <span class="pill special"><svg class="pill-ribbon"><use href="#ribbon-pill-special"/></svg>Zero Personal Attacks</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-card">
+      <div class="profile-card-inner">
+        <div class="profile-name-row">
+          <div class="profile-avatar" style="background: linear-gradient(135deg, #dc2626, #991b1b);">RK</div>
+          <div><div class="profile-name">Robert Kellerman</div></div>
+        </div>
+        <div class="profile-meta">
+          <span style="color:#f87171;">Republican</span>
+          <span class="dot"></span><span>TX-28</span>
+          <span class="dot"></span><span>Challenger</span>
+          <span class="dot"></span><span>87 statements</span>
+        </div>
+        <div class="profile-pills-label">Awards</div>
+        <div class="profile-pills">
+          <span class="pill positive"><svg class="pill-ribbon"><use href="#ribbon-pill-positive"/></svg>Accomplishments Leader</span>
+          <span class="pill negative"><svg class="pill-ribbon"><use href="#ribbon-pill-negative"/></svg>Least Civil Candidate</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-card">
+      <div class="profile-card-inner">
+        <div class="profile-name-row">
+          <div class="profile-avatar" style="background: linear-gradient(135deg, #dc2626, #991b1b);">SP</div>
+          <div><div class="profile-name">Sen. Sarah Palmer</div></div>
+        </div>
+        <div class="profile-meta">
+          <span style="color:#f87171;">Republican</span>
+          <span class="dot"></span><span>OH Senate</span>
+          <span class="dot"></span><span>Incumbent</span>
+          <span class="dot"></span><span>204 statements</span>
+        </div>
+        <div class="profile-pills-label">Awards</div>
+        <div class="profile-pills">
+          <span class="pill negative"><svg class="pill-ribbon"><use href="#ribbon-pill-negative"/></svg>Least Bipartisan</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

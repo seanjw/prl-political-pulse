@@ -1,0 +1,471 @@
+/* Import Bootstrap Icons */
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* =============================================================================
+   Search Page Styles - Uses CSS variables for light/dark mode support
+============================================================================= */
+
+.search-page {
+  background-color: var(--bg-primary);
+  min-height: 100vh;
+}
+
+.search-page .container {
+  max-width: 900px;
+}
+
+/* Card */
+.search-page .card {
+  border: 1px solid var(--border);
+  background-color: var(--bg-secondary);
+}
+
+/* Buttons */
+.search-page .btn-light-grey {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+}
+
+.search-page .btn-light-grey:hover {
+  background-color: var(--bg-secondary);
+  border-color: var(--border);
+  color: var(--text-primary);
+}
+
+.search-page .btn-light-grey:active {
+  background-color: var(--bg-secondary) !important;
+}
+
+.search-page .btn-light-grey:focus,
+.search-page .btn-light-grey:active,
+.search-page .btn-light-grey.active {
+  z-index: auto !important;
+  border: 1px solid var(--border) !important;
+}
+
+.search-page .btn-outline-primary.soft-hover:hover,
+.search-page .btn-outline-primary.soft-hover.show,
+.search-page .btn-outline-primary.soft-hover:active,
+.search-page .btn-outline-primary.soft-hover:focus-visible {
+  background-color: #e7f1ff !important;
+  color: #0d6efd !important;
+  border-color: #0d6efd !important;
+}
+
+.search-page .btn-outline-danger.soft-hover:hover,
+.search-page .btn-outline-danger.soft-hover.show,
+.search-page .btn-outline-danger.soft-hover:active,
+.search-page .btn-outline-danger.soft-hover:focus-visible {
+  background-color: #fcebea !important;
+  color: #dc3545 !important;
+  border-color: #dc3545 !important;
+}
+
+.search-page .btn-outline-secondary.soft-hover:hover,
+.search-page .btn-outline-secondary.soft-hover.show,
+.search-page .btn-outline-secondary.soft-hover:active,
+.search-page .btn-outline-secondary.soft-hover:focus-visible {
+  background-color: #f2f2f2 !important;
+  color: #6c757d !important;
+  border-color: #6c757d !important;
+}
+
+/* Forms & dropdowns */
+.search-page #searchInput::placeholder {
+  color: var(--text-muted);
+  opacity: 0.6;
+}
+
+.search-page .form-control::placeholder {
+  color: var(--text-secondary);
+  opacity: 1;
+}
+
+.search-page .form-control,
+.search-page .form-select {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+}
+
+.search-page .form-control:focus,
+.search-page .form-select:focus {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.search-page .dropdown-menu {
+  z-index: 1050 !important;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+}
+
+.search-page .autocomplete-suggestions {
+  background-color: var(--bg-secondary);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1050;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+}
+
+.search-page .list-group-item.active,
+.search-page .dropdown-item:hover,
+.search-page .dropdown-item:focus,
+.search-page .dropdown-item:focus-visible,
+.search-page .dropdown-item:active {
+  color: var(--text-primary);
+  background-color: var(--bg-tertiary);
+  box-shadow: none !important;
+  outline: none !important;
+  border-color: var(--border) !important;
+}
+
+.search-page .dropdown-item {
+  color: var(--text-primary);
+}
+
+/* Tables */
+.search-page .rounded-table {
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: var(--bg-tertiary);
+}
+
+.search-page .rounded-table table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin: 0;
+  table-layout: fixed;
+}
+
+.search-page .rounded-table th,
+.search-page .rounded-table td {
+  width: 50%;
+  padding: 0.375rem 0.75rem;
+  vertical-align: top;
+  word-break: break-word;
+}
+
+.search-page .rounded-table thead th {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  font-weight: 600;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+}
+
+.search-page .rounded-table thead th:last-child {
+  border-right: none;
+}
+
+.search-page .rounded-table tbody td:first-child {
+  background-color: var(--bg-secondary);
+  font-weight: 600;
+  color: var(--text-primary);
+  border-right: 1px solid var(--border);
+}
+
+.search-page .rounded-table tbody td {
+  color: var(--text-primary);
+}
+
+.search-page .rhetoric-value-cell a {
+  display: inline-block;
+  max-width: 30ch;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+  text-decoration: none;
+}
+
+.search-page .rhetoric-value-cell a:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+/* Charts */
+.search-page canvas {
+  cursor: pointer;
+}
+
+.search-page #partyShareBar {
+  border-radius: 6px;
+}
+
+.search-page .rounded-bar-container {
+  border-radius: 6px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.search-page .histogram-canvas-container {
+  height: 300px;
+}
+
+.search-page .party-share-bar-container {
+  height: 20px;
+}
+
+/* Result cards */
+.search-page .small-card,
+.search-page .card.search,
+.search-page .charts-panel,
+.search-page .search-info-panel {
+  background-color: var(--bg-tertiary);
+  transition: box-shadow 0.3s ease, opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* Text colors for Bootstrap overrides */
+.search-page .text-muted {
+  color: var(--text-muted) !important;
+}
+
+.search-page .card-text,
+.search-page .card-body {
+  color: var(--text-primary);
+}
+
+.search-page h3,
+.search-page h4,
+.search-page h5,
+.search-page h6 {
+  color: var(--text-primary);
+}
+
+/* Modal styling */
+.search-page .modal-content {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.search-page .modal-header {
+  border-bottom: 1px solid var(--border);
+}
+
+.search-page .modal-footer {
+  border-top: 1px solid var(--border);
+}
+
+.search-page .card.selected {
+  box-shadow: 0 0 0 1px #0d6efd, 0 0 6px 2px rgba(13, 110, 253, 0.2) !important;
+  z-index: 1;
+}
+
+.search-page .fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.search-page .fade-in.show {
+  opacity: 1;
+  transform: none;
+}
+
+/* Badges & triggers */
+.search-page .badge:hover {
+  filter: brightness(1.08);
+}
+
+.search-page .badge.bg-light:hover {
+  filter: brightness(0.96);
+}
+
+.search-page .badge.bg-dark:hover {
+  filter: brightness(1.12);
+}
+
+.search-page .badge.fix-icon {
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.search-page .badge.fix-icon i {
+  font-size: 0.9em;
+  line-height: 1;
+}
+
+.search-page .inline-check-icon {
+  position: relative;
+  top: 0.0375rem;
+}
+
+.search-page .btn-group .badge {
+  border-radius: 0 !important;
+}
+
+.search-page .btn-group .badge:first-child {
+  border-top-left-radius: 0.375rem !important;
+  border-bottom-left-radius: 0.375rem !important;
+  margin-right: -1px !important;
+}
+
+.search-page .btn-group .badge:last-child {
+  border-top-right-radius: 0.375rem !important;
+  border-bottom-right-radius: 0.375rem !important;
+}
+
+.search-page .search-filter-trigger:not(.badge),
+.search-page .action-link,
+.search-page span[data-copy-target] {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.search-page .search-filter-trigger:not(.badge):hover,
+.search-page .action-link:hover,
+.search-page span[data-copy-target]:hover {
+  text-decoration: underline !important;
+}
+
+.search-page .card-head {
+  font-size: 1.2rem;
+}
+
+.search-page .action-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.search-page .action-link:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* Search highlight */
+.search-page .search-highlight {
+  background-color: #fff3cd;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* Filter animations */
+.search-page .filter-updated {
+  background-color: #e3f2fd !important;
+  border-color: #2196f3 !important;
+  transition: background-color 0.6s ease, border-color 0.6s ease;
+}
+
+.search-page .filter-updated.fade-out {
+  background-color: transparent !important;
+  border-color: #dee2e6 !important;
+}
+
+/* Back to top button */
+.search-page .back-to-top-btn {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1050;
+}
+
+/* Export notification */
+.search-page .export-notification {
+  position: fixed;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  z-index: 1050;
+}
+
+/* Modal styling to work with Bootstrap */
+.search-page .modal-backdrop {
+  z-index: 1040;
+}
+
+.search-page .modal {
+  z-index: 1050;
+}
+
+/* Results info panel dropdown */
+.search-page .search-info-panel .dropdown-menu {
+  z-index: 1000;
+}
+
+/* Collapsible sections */
+.search-page .collapse-section {
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+/* Search cards carousel */
+.search-page .search-cards-strip {
+  display: flex;
+  gap: 7px;
+  overflow-x: auto;
+  padding: 4px 2px;
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  touch-action: pan-x;
+}
+
+.search-page .search-cards-strip::-webkit-scrollbar {
+  display: none;
+}
+
+.search-page .sc-item {
+  flex: 0 0 260px;
+  width: 260px;
+}
+
+.search-page .search-card {
+  cursor: pointer;
+  height: 100px;
+  transition: box-shadow 0.15s, transform 0.15s;
+  background-color: var(--bg-tertiary);
+  border: 1px solid var(--border);
+}
+
+.search-page .search-card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+.search-page .search-card .card-body {
+  height: 100%;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-page .sc-title {
+  min-height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.search-page .sc-title-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-page .sc-subtitle {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.35;
+  margin-bottom: 8px;
+  min-height: calc(1em * 1.35 * 2);
+}
+
+/* Role button cursor */
+.search-page [role="button"] {
+  cursor: pointer;
+  transition: all 0.12s ease-in-out;
+}

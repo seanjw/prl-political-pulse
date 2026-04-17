@@ -1,0 +1,26 @@
+{
+    "general_trust": {
+        "label": "General Trust",
+        "question": "Do you think your wallet (or your valuables) would be returned to you if it were found by a stranger?"
+    },
+    "institutional_corruption": {
+        "label": "Quality of Politicians",
+        "question": "If a member of Congress were offered a bribe to influence the awarding of a government contract, do you think that the member of Congress would accept or refuse the bribe?"
+    },
+    "institutional_response": {
+        "label": "Responsiveness of Government",
+        "question": "If you were to complain about the poor quality of a public service, how likely or unlikely is it that the problem would be easily resolved?"
+    },
+    "vote_importance": {
+        "label": "Importance of Voting",
+        "question": "How important or unimportant is it to vote in every election?"
+    },
+    "pride": {
+        "label": "Pride in Citizenship",
+        "question": "How proud are you to be an American?"
+    },
+    "fair_treatment": {
+        "label": "Fair Treatment",
+        "question": "Do you agree or disagree that you can expect fair treatment from government authorities?"
+    }
+}

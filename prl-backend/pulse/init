@@ -1,0 +1,10 @@
+
+# install python requirements
+
+# install node, npm, 11ty
+
+# Set path to nodejs (for the 11ty build)
+sudo ln -s $(which node) /usr/bin/node
+
+
+

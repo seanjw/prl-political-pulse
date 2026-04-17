@@ -1,0 +1,48 @@
+state,total_events,total_killed,earliest_year,latest_year
+California,61,12,1970,2022
+New York,37,3,1970,2021
+Puerto Rico,28,4,1970,1998
+Illinois,19,3,1970,2017
+Florida,16,2,1970,2024
+Georgia,12,3,1970,2025
+Wisconsin,11,4,1970,2025
+Ohio,11,12,1970,2022
+Arizona,11,0,1970,2024
+Texas,10,6,1970,2025
+Pennsylvania,10,3,1970,2025
+Minnesota,9,3,1970,2025
+Maryland,9,5,1970,2022
+Washington,9,3,1970,2021
+Massachusetts,9,0,1970,2016
+Iowa,9,0,1970,2016
+Colorado,9,0,1970,2000
+Oregon,8,0,1970,2020
+Missouri,8,0,1970,2020
+Michigan,7,2,1970,2024
+Nevada,7,9,1971,2025
+North Carolina,7,0,1970,2024
+New Jersey,6,7,1970,2019
+District of Columbia,6,5,1970,2021
+Louisiana,4,7,1970,2019
+Virginia,3,1,1981,2023
+Kentucky,3,0,1995,2022
+New Mexico,3,0,1970,2025
+Idaho,3,0,1970,1986
+South Carolina,3,0,1995,2025
+Connecticut,3,0,1970,2020
+Tennessee,2,1,2016,2021
+Arkansas,2,2,2019,2020
+Alabama,2,1,1989,2003
+Kansas,2,0,1971,1994
+Utah,2,1,1970,2025
+Mississippi,1,0,1970,1970
+South Dakota,1,2,1973,1973
+"California, Georgia, New York, Florida, California, California, New York, Delaware, Delaware, New York, District of Columbia, New York, Maryland, California, Florida",1,0,2018,2018
+"Texas, CO, CO, NEx7, Iowax3, Indiana, Iowa, Illinoisx3",1,0,2002,2002
+Montana,1,2,2017,2017
+Portland,1,1,2022,2022
+Nebraska,1,0,1970,1970
+Oklahoma,1,0,1970,1970
+Indiana,1,0,1970,1970
+Hawaii,1,0,1971,1971
+"California, California, Illinois, Illinois, Illinois, New York, New York, New York",1,0,1972,1972

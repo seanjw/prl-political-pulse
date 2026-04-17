@@ -1,0 +1,7 @@
+# Minimal dependencies for ZIP deployment
+# pandas/numpy provided via Lambda Layer
+PyMySQL>=1.1.0
+boto3>=1.28.0
+dataset>=1.6.0
+# dataset requires sqlalchemy<2.0
+sqlalchemy>=1.4.0,<2.0.0

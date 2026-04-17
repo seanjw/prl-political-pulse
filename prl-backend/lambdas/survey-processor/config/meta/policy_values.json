@@ -1,0 +1,251 @@
+{
+    "CPA1": {
+        "type": "ordinal",
+        "label": "Avoiding Help Due to Politics",
+        "question": "Have you ever avoided asking for help at work because you thought the person might disagree with your political views?",
+        "options": {
+            "1": "Never",
+            "2": "Rarely",
+            "3": "Sometimes",
+            "4": "Often",
+            "5": "Always"
+        }
+    },
+    "CPA2": {
+        "type": "ordinal",
+        "label": "Political Disagreement & Job Satisfaction",
+        "question": "To what extent does political disagreement at work affect your job satisfaction?",
+        "options": {
+            "1": "Not at all",
+            "2": "A little",
+            "3": "Somewhat",
+            "4": "Quite a bit",
+            "5": "A great deal"
+        }
+    },
+    "CPA3": {
+        "type": "ordinal",
+        "label": "Public Statements from the Private Sector",
+        "question": "Do you agree or disagree: Companies should take public positions on social issues.",
+        "options": {
+            "1": "Strongly agree",
+            "2": "Agree",
+            "3": "Neither agree nor disagree",
+            "4": "Disagree",
+            "5": "Strongly disagree"
+        }
+    },
+    "CPA4":{
+        "type": "qualitative",
+        "label": "Public Statements By Issue",
+        "grid": true,
+        "question": "Do you think businesses should or should not take a public stance on these topics?",
+        "subcomponents": {
+            "CPA4_a": "climate change",
+            "CPA4_b": "mental health",
+            "CPA4_c": "racial issues",
+            "CPA4_d": "gun laws",
+            "CPA4_e": "LGBTQ+ issues",
+            "CPA4_f": "immigration policy",
+            "CPA4_g": "international conflicts",
+            "CPA4_h": "abortion",
+            "CPA4_i": "political candidates"
+        },
+        "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Don’t know"
+        }
+    },
+    "CPA5": {
+        "type": "ordinal",
+        "label": "Business Impact on Society",
+        "question": "Which of the following best describes the impact businesses have on people's lives?",
+        "options": {
+            "1": "Extremely positive",
+            "2": "Positive",
+            "3": "Neither positive nor negative",
+            "4": "Negative",
+            "5": "Extremely negative"
+        }
+    },
+    "CPA6": {
+        "type": "ordinal",
+        "label": "Job Consideration Factors",
+        "grid": true,
+        "question": "When considering a new job, how important would each of the following factors be in deciding which company or workplace to apply to?",
+        "subcomponents": {
+            "CPA6_a": "Offers fair wages to workers of all types",
+            "CPA6_b": "Offers high-quality healthcare benefits",
+            "CPA6_c": "Is close to where you live",
+            "CPA6_d": "Has a commitment to promoting current employees",
+            "CPA6_e": "Offers remote working options",
+            "CPA6_f": "Promotes diversity, equity, and inclusion (DEI)"
+        },
+        "options": {
+            "1": "Very unimportant",
+            "2": "Unimportant",
+            "3": "Neither important nor unimportant",
+            "4": "Important",
+            "5": "Very important"
+        }
+    },
+    "immigration1": {
+        "type": "qualitative",
+        "label": "Immigration: Good or Bad?",
+        "question": "On the whole, do you think immigration is a good thing or a bad thing for America today?",
+        "options": {
+            "1": "Good thing",
+            "2": "Bad thing",
+            "3": "Don’t know"
+        }
+    },
+    "immigration2": {
+        "type": "ordinal",
+        "label": "Support for Deportation of Undocumented Immigrants",
+        "question": "Do you agree or disagree: immigrants currently living in the United States illegally should be deported.",
+        "options": {
+            "1": "Strongly agree",
+            "2": "Somewhat agree",
+            "3": "Neither agree nor disagree",
+            "4": "Somewhat disagree",
+            "5": "Strongly disagree"
+        }
+    },
+    "immigration3": {
+        "type": "ordinal",
+        "label": "Support for Amnesty for Undocumented Immigrants",
+        "question": "Do you agree or disagree: undocumented immigrants currently living in the United States should be granted amnesty.",
+        "options": {
+            "1": "Strongly agree",
+            "2": "Somewhat agree",
+            "3": "Neither agree nor disagree",
+            "4": "Somewhat disagree",
+            "5": "Strongly disagree"
+        }
+    },
+    "economy1": {
+        "type": "ordinal",
+        "label": "Economic Expectations (Next 6 Months)",
+        "question": "How do you expect the economy to perform in the next 6 months?",
+        "options": {
+            "1": "Very good",
+            "2": "Somewhat good",
+            "3": "Neither good nor bad",
+            "4": "Somewhat bad",
+            "5": "Very bad"
+        }
+    },
+    "economy2": {
+        "type": "ordinal",
+        "label": "Economic Performance (Past 6 Months)",
+        "question": "How do you think the economy performed in the previous 6 months?",
+        "options": {
+            "1": "Very good",
+            "2": "Somewhat good",
+            "3": "Neither good nor bad",
+            "4": "Somewhat bad",
+            "5": "Very bad"
+        }
+    },
+    "tariffs1": {
+        "type": "ordinal",
+        "label": "Manufacturing Jobs in America",
+        "question": "Do you agree or disagree: America would be better off if more Americans worked in manufacturing than they do today.",
+        "options": {
+            "1": "Strongly agree",
+            "2": "Somewhat agree",
+            "3": "Neither agree nor disagree",
+            "4": "Somewhat disagree",
+            "5": "Strongly disagree"
+        }
+    },
+    "tariffs2a": {
+        "type": "ordinal",
+        "label": "Support for New Tariffs",
+        "question": "Would you support or oppose the US government putting new tariffs on things made in other countries?",
+        "options": {
+            "1": "Strongly support",
+            "2": "Somewhat support",
+            "3": "Neither support nor oppose",
+            "4": "Somewhat oppose",
+            "5": "Strongly oppose"
+        }
+    },
+    "tariffs2b": {
+        "type": "ordinal",
+        "label": "Tariffs & Price Increases",
+        "question": "Would you support or oppose the US government putting new tariffs on things made in other countries even if it increased the price of things you buy at the store?",
+        "options": {
+            "1": "Strongly support",
+            "2": "Somewhat support",
+            "3": "Neither support nor oppose",
+            "4": "Somewhat oppose",
+            "5": "Strongly oppose"
+        }
+    },
+    "tariffs3": {
+        "type": "qualitative",
+        "label": "Effects of Free Trade Agreements",
+        "grid": true,
+        "question": "Do you think free trade agreements with other countries generally increase or decrease each of the following, or don’t make much difference either way?",
+        "subcomponents": {
+            "tariffs3_a": "The variety of products Americans buy at the store",
+            "tariffs3_b": "Prices of products Americans buy at the store",
+            "tariffs3_c": "The number of American jobs",
+            "tariffs3_d": "Americans’ wages"
+        },
+        "options": {
+            "1": "Increase",
+            "2": "Decrease",
+            "3": "No difference"
+        }
+    },
+    "freespeech": {
+        "type": "ordinal",
+        "label": "Security of Free Speech in America",
+        "question": "How secure do you think the right to freedom of speech is in America today?",
+        "options": {
+            "1": "Not at all secure",
+            "2": "Somewhat secure",
+            "3": "Very secure",
+            "4": "Completely secure"
+        }
+    },
+    "group_therms_black_1": {
+        "type": "scale",
+        "label": "Feelings towards Black Americans",
+        "question": "How would you rate your feelings toward Black Americans on a scale of 0 to 100?",
+        "options": ["0-100"]
+    },
+    "group_therms_white_1": {
+        "type": "scale",
+        "label": "Feelings towards White Americans",
+        "question": "How would you rate your feelings toward White Americans on a scale of 0 to 100?",
+        "options": ["0-100"]
+    },
+    "group_therms_jewish_1": {
+        "type": "scale",
+        "label": "Feelings towards Jewish Americans",
+        "question": "How would you rate your feelings toward Jewish Americans on a scale of 0 to 100?",
+        "options": ["0-100"]
+    },
+    "group_therms_hispanic_1": {
+        "type": "scale",
+        "label": "Feelings towards Hispanic Americans",
+        "question": "How would you rate your feelings toward Hispanic Americans on a scale of 0 to 100?",
+        "options": ["0-100"]
+    },
+    "group_therms_illegal_immigrants_1": {
+        "type": "scale",
+        "label": "Feelings towards Illegal Immigrants",
+        "question": "How would you rate your feelings toward illegal immigrants on a scale of 0 to 100?",
+        "options": ["0-100"]
+    },
+    "group_therms_trans_1": {
+        "type": "scale",
+        "label": "Feelings towards Transgender People",
+        "question": "How would you rate your feelings toward Transgender people on a scale of 0 to 100?",
+        "options": ["0-100"]
+    }
+}

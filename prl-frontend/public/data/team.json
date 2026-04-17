@@ -1,0 +1,240 @@
+{
+  "faculty": [
+    {
+      "name": "Sean J. Westwood",
+      "title": "Director, Associate Professor of Government",
+      "institution": "Dartmouth College",
+      "photo": "/img/sean.jpeg",
+      "profileLink": "/about/sean-westwood"
+    },
+    {
+      "name": "Yphtach Lelkes",
+      "title": "Co-Director, Associate Professor of Communication and Political Science",
+      "institution": "University of Pennsylvania",
+      "photo": "/img/team/Yphtach.jpeg"
+    }
+  ],
+  "staff": [
+    {
+      "name": "Emma Cutrufello, PhD",
+      "title": "Lab Director",
+      "institution": "Dartmouth College",
+      "photo": "/img/team/Emma-headshot-1.jpg"
+    },
+    {
+      "name": "Ellie Mitchell",
+      "title": "Post-graduate Associate",
+      "institution": "Dartmouth College",
+      "photo": "/img/team/Ellie.jpeg"
+    }
+  ],
+  "postdocs": [
+    {
+      "name": "Samuel Frederick",
+      "title": "Postdoc",
+      "institution": "University of Pennsylvania",
+      "photo": "/img/team/Sam-1.jpg",
+      "website": "https://samuelfrederick.com"
+    },
+    {
+      "name": "Erin Walk",
+      "title": "Postdoc",
+      "institution": "University of Pennsylvania",
+      "photo": "/img/team/erin_walk-1.jpg",
+      "website": "https://erinwalk.org"
+    }
+  ],
+  "gradStudents": [
+    {
+      "name": "Nicholas Dias",
+      "title": "Graduate Student",
+      "institution": "University of Pennsylvania",
+      "photo": "/img/team/Nicholas_Dias.jpeg"
+    },
+    {
+      "name": "Neil Fasching",
+      "title": "Graduate Student",
+      "institution": "University of Pennsylvania",
+      "photo": "/img/team/Neil-Fasching-1.jpeg"
+    },
+    {
+      "name": "Sam Wolken",
+      "title": "Graduate Student",
+      "institution": "University of Pennsylvania",
+      "photo": "/img/team/Sam-Wolken-1.jpeg"
+    }
+  ],
+  "undergrads": [
+    "Samuel Hirsh",
+    "Joseph Hirsh",
+    "Aral Cay",
+    "Samuel Korff",
+    "Daniel Davidson",
+    "Hailey King",
+    "Sofia Piraino"
+  ],
+  "advisoryBoard": [
+    {
+      "name": "David Brady",
+      "title": "Professor of Political Economy, Senior Fellow",
+      "institution": "Hoover Institution, Stanford University",
+      "photo": "/img/team/David_Brady.jpeg"
+    },
+    {
+      "name": "Lauren Davenport",
+      "title": "Associate Professor of Political Science",
+      "institution": "Stanford University",
+      "photo": "/img/team/Lauren_Davenport.jpeg"
+    },
+    {
+      "name": "James Druckman",
+      "title": "Martin Brewer Anderson Professor of Political Science",
+      "institution": "University of Rochester",
+      "photo": "/img/team/druckman4.jpeg"
+    },
+    {
+      "name": "Morris P. Fiorina",
+      "title": "Wendt Family Professor, Senior Fellow",
+      "institution": "Hoover Institution, Stanford University",
+      "photo": "/img/team/Morris_Fiorina-1.jpeg"
+    },
+    {
+      "name": "Justin Grimmer",
+      "title": "Professor of Political Science, Senior Fellow",
+      "institution": "Hoover Institution, Stanford University",
+      "photo": "/img/team/justin-grimmer.jpeg"
+    },
+    {
+      "name": "Daniel Hopkins",
+      "title": "Professor of Political Science",
+      "institution": "University of Pennsylvania",
+      "photo": "/img/team/hopkins_daniel.jpeg"
+    },
+    {
+      "name": "Jennifer Jerit",
+      "title": "Professor of Government",
+      "institution": "Dartmouth College",
+      "photo": "/img/team/jerit.jpeg"
+    },
+    {
+      "name": "Samara Klar",
+      "title": "Associate Professor of Government",
+      "institution": "University of Arizona",
+      "photo": "/img/team/Samara_Klar-1.jpeg"
+    },
+    {
+      "name": "Matthew Levendusky",
+      "title": "Professor of Political Science",
+      "institution": "University of Pennsylvania",
+      "photo": "/img/team/levendusky_092017.jpeg"
+    },
+    {
+      "name": "Diana Mutz",
+      "title": "Samuel A. Stouffer Professor of Political Science and Communication",
+      "institution": "University of Pennsylvania",
+      "photo": "/img/team/Diana_Mutz-1.jpeg"
+    },
+    {
+      "name": "Neil Malhotra",
+      "title": "Edith M. Cornell Professor of Political Economy",
+      "institution": "Stanford University",
+      "photo": "/img/team/Neil_Malhotra-1.jpeg"
+    },
+    {
+      "name": "Betsy Levy Paluck",
+      "title": "Professor of Psychology & Princeton School of Public and International Affairs",
+      "institution": "Princeton University",
+      "photo": "/img/team/Betsy_Paluck.jpeg",
+      "website": "https://betsylevypaluck.com"
+    },
+    {
+      "name": "Margaret Roberts",
+      "title": "Professor of Political Science",
+      "institution": "UC San Diego",
+      "photo": "/img/team/Molly_Roberts.jpeg"
+    },
+    {
+      "name": "Erin Rossiter",
+      "title": "Assistant Professor of Political Science",
+      "institution": "University of Notre Dame",
+      "photo": "/img/team/erin-1.jpeg",
+      "website": "https://erossiter.com"
+    },
+    {
+      "name": "Brandon Stewart",
+      "title": "Associate Professor of Sociology",
+      "institution": "Princeton University",
+      "photo": "/img/team/Brandon_Stewart.jpeg"
+    },
+    {
+      "name": "Emily West",
+      "title": "Assistant Professor of Political Science",
+      "institution": "University of Pittsburgh",
+      "photo": "/img/team/emily.jpeg",
+      "website": "https://emilywest.org"
+    },
+    {
+      "name": "Ismail White",
+      "title": "Professor of Politics and Public Affairs",
+      "institution": "Princeton University",
+      "photo": "/img/team/White_headshot.jpg"
+    }
+  ],
+  "globalAdvisors": [
+    {
+      "name": "Sumitra Badrinathan",
+      "title": "Assistant Professor, School of International Service",
+      "institution": "American University",
+      "photo": "/img/team/Sumitra.jpeg"
+    },
+    {
+      "name": "Anna Grzymala-Busse",
+      "title": "Professor of Political Science, Senior Fellow",
+      "institution": "Hoover Institution, Stanford University",
+      "photo": "/img/team/anna-grzymala-busse.jpeg"
+    },
+    {
+      "name": "Jeremy Ferwerda",
+      "title": "Assistant Professor of Government",
+      "institution": "Dartmouth College",
+      "photo": "/img/team/Jeremy_Ferwerda.webp"
+    },
+    {
+      "name": "Noam Gidron",
+      "title": "Senior Lecturer of Political Science",
+      "institution": "Hebrew University of Jerusalem",
+      "photo": "/img/team/noam_gidron.jpeg"
+    },
+    {
+      "name": "Virginia Rocha",
+      "title": "Max Weber Fellow",
+      "institution": "European University Institute",
+      "photo": "/img/team/virginia_rocha.jpeg"
+    },
+    {
+      "name": "F. Daniel Hidalgo",
+      "title": "Associate Professor of Political Science",
+      "institution": "MIT",
+      "photo": "/img/team/hidalgo-1.jpeg"
+    },
+    {
+      "name": "Monika Nalepa",
+      "title": "Professor of Political Science",
+      "institution": "University of Chicago",
+      "photo": "/img/team/Nalepa.jpeg"
+    },
+    {
+      "name": "Lior Sheffer",
+      "title": "Lecturer of Political Science",
+      "institution": "Tel Aviv University",
+      "photo": "/img/team/lior_sheffer-1.jpg"
+    },
+    {
+      "name": "Chagai Weiss",
+      "title": "Postdoctoral Fellow, King Center on Global Development",
+      "institution": "Stanford University",
+      "photo": "/img/team/Weiss.jpeg",
+      "website": "https://chagaiweiss.com"
+    }
+  ]
+}

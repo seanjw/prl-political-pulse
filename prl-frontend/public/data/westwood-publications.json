@@ -1,0 +1,1227 @@
+{
+  "profile": {
+    "name": "Sean J. Westwood",
+    "title": "Associate Professor, Department of Government",
+    "institution": "Dartmouth College",
+    "role": "Director, Polarization Research Lab",
+    "photo": "/img/sean.jpeg",
+    "email": "sean.j.westwood@dartmouth.edu",
+    "googleScholar": "https://scholar.google.com/citations?user=AFD0pYEAAAAJ&hl=en",
+    "cvUrl": "https://americaspoliticalpulse.com/files/westwood-cv.pdf",
+    "bio": [
+      "Sean is an Associate Professor in the Department of Government at Dartmouth College and director of the Polarization Research Lab (PRL). His primary area of research is political behavior and public opinion. His work focuses on understanding where partisan biases originate, where they manifest (inside and outside political domains), and their bounds. He is particularly interested at examining how partisanship and information from political elites affect the behavior of citizens. He has expertise in both survey methods and computational social science. His work has been published in journals including Proceedings of the National Academy of Sciences, American Political Science Review, Nature Human Behavior, and the American Journal of Political Science.",
+      "His work has been covered by The New York Times, Washington Post, Wall Street Journal, Slate, Vox, Foreign Affairs, New Republic, Newsweek, ABC, CBS, CNN, Fortune, Financial Times, Bloomberg, NPR, New York Magazine, USA Today and other local outlets."
+    ],
+    "researchInterests": [
+      "Political Behavior",
+      "Polarization",
+      "Affective Polarization",
+      "Public Opinion",
+      "Partisan Prejudice",
+      "Democratic Norms"
+    ],
+    "googleCitations": 12910,
+    "hIndex": 26,
+    "citationsLastUpdated": "2026-04-05"
+  },
+  "books": [
+    {
+      "title": "The Impression of Influence: Legislator Communication, Representation, and Democratic Accountability",
+      "authors": "Grimmer, Justin, Westwood, S.J., & Messing, Solomon",
+      "year": 2014,
+      "publisher": "Princeton University Press",
+      "url": "https://muse.jhu.edu/book/36388/pdf/download",
+      "reviewedIn": "Journal of Politics, Choice, Congress & The Presidency, Political Communication, Political Science Quarterly"
+    },
+    {
+      "title": "Dead on Arrival: Why Electoral Reforms Won't Revitalize American Democracy",
+      "authors": "Westwood, S.J. & Frederick, Samuel",
+      "year": 2026,
+      "publisher": "In preparation"
+    }
+  ],
+  "publications": [
+    {
+      "authors": "Jacob, Marc, & Lelkes, Yphtach, & Westwood, Sean J.",
+      "title": "Entrepreneurs of Conflict: Media Attention without Consequences",
+      "year": "2026",
+      "citationKey": "JacobLelkesWestwoodWetzel2024",
+      "journal": "Proceedings of the National Academy of Sciences NEXUS",
+      "url": "https://academic.oup.com/pnasnexus/article/5/3/pgag038/8524399"
+    },
+    {
+      "authors": "Westwood, Sean J., & Frederick, Samuel",
+      "title": "Reply to Van der Stigchel et al.: Empirical evidence that AI survey contamination is real and substantial",
+      "year": "2026",
+      "citationKey": "WestwoodFrederickPNASReply2026",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "url": "https://americaspoliticalpulse.com/files/preprints/reply-to-van-der-stigchel-et-al-empirical-evidence.pdf"
+    },
+    {
+      "authors": "Westwood, Sean J.",
+      "title": "The Potential Existential Threat of Large Language Models to Online Survey Research",
+      "year": "2025",
+      "citationKey": "Westwood2025",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "url": "https://www.pnas.org/doi/epdf/10.1073/pnas.2518075122",
+      "mediaCoverage": "The Economist, The Times of London, Science, Nature"
+    },
+    {
+      "authors": "Holliday, Derek, & Lelkes, Yphtach, & Westwood, Sean J.",
+      "title": "Why Depolarization is Hard: Evaluating Attempts to Decrease Partisan Animosity in America",
+      "year": "2025",
+      "citationKey": "HollidayLelkesWestwood2025",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "url": "https://www.pnas.org/doi/epdf/10.1073/pnas.2508827122"
+    },
+    {
+      "authors": "Cely, Tadeas, & Jacob, Marc, & Westwood, Sean J.",
+      "title": "Levels of Office and Voter Accountability for Democratic Norm Violations",
+      "year": "2026",
+      "citationKey": "CelyJacobLelkesWestwood2024",
+      "journal": "Public Opinion Quarterly"
+    },
+    {
+      "authors": "Gaebler, Hans, & Goel, Sharad, & Iyengar, Shanto, & Westwood, Sean J.",
+      "title": "No news is good news? The declining information value of broadcast news in America",
+      "year": "2025",
+      "citationKey": "gaebler2025no",
+      "journal": "PLOS One",
+      "url": "https://journals.plos.org/plosone/article/file?type=printable&id=10.1371/journal.pone.0331607",
+      "withStudent": true
+    },
+    {
+      "authors": "Holliday, Derek E., & Lelkes, Yphtach, & Westwood, Sean J.",
+      "title": "The July 2024 Trump Assassination Attempt was Followed by Lower In-Group Support for Partisan Violence and Increased Group Unity",
+      "year": "2024",
+      "citationKey": "holliday2024extreme",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "url": "https://www.pnas.org/doi/epdf/10.1073/pnas.2414689121",
+      "mediaCoverage": "New York Times"
+    },
+    {
+      "authors": "Fasching, Neal, & Iyengar, Shanto, & Lelkes, Yphtach, & Westwood, Sean J.",
+      "title": "Persistent Polarization: The Unexpected Durability of Political Animosity Around US Elections",
+      "year": "2024",
+      "citationKey": "FaschingLelkesWestwood2024",
+      "journal": "Science Advances",
+      "url": "https://www.science.org/doi/epdf/10.1126/sciadv.adm9198",
+      "withStudent": true
+    },
+    {
+      "authors": "Holliday, Derek, & Grimmer, Justin, & Lelkes, Yphtach, & Westwood, Sean J.",
+      "title": "Who are the Election Skeptics? Evidence from the 2022 Midterm Elections",
+      "year": "2024",
+      "citationKey": "HollidayGrimmerLelkesWestwood2024",
+      "journal": "Election Law Journal",
+      "url": "https://www.liebertpub.com/doi/epub/10.1089/elj.2024.0010"
+    },
+    {
+      "authors": "Holliday, Derek, & Lelkes, Yphtach, & Westwood, Sean J.",
+      "title": "Affective polarization is uniformly distributed across American states",
+      "year": "2024",
+      "citationKey": "HollidayLelkesWestwood2024",
+      "journal": "Proceedings of the National Academy of Sciences, NEXUS",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11475403/"
+    },
+    {
+      "authors": "Dias, Nicholas C., & Aarslew, Laurits F., & Vrede Skaaning Frederiksen, Kristian, & Lelkes, Yphtach, & Westwood, Sean J.",
+      "title": "Correcting misperceptions of partisan opponents is not effective at treating democratic ills",
+      "year": "2024",
+      "citationKey": "DiasAarslewFrederiksenLelkesPradellaWestwood2024",
+      "journal": "Proceedings of the National Academy of Sciences, NEXUS",
+      "url": "https://academic.oup.com/pnasnexus/article-pdf/3/8/pgae304/58777606/pgae304.pdf",
+      "withStudent": true
+    },
+    {
+      "authors": "Holliday, Derek, & Iyengar, Shanto, & Lelkes, Yphtach, & Westwood, Sean J.",
+      "title": "Uncommon and Nonpartisan: Anti-Democratic Attitudes In The American Public",
+      "year": "2024",
+      "citationKey": "Holliday2024",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10990094/"
+    },
+    {
+      "authors": "Wang, Clara, & Westwood, Sean J.",
+      "title": "Information Diets in an Information Desert: Selective Exposure in a Restricted Information Environment.",
+      "year": "2024",
+      "citationKey": "WangWestwood2020",
+      "journal": "China Quarterly",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C5B501C925AB2C3FAC1A731A04A5936B/S030574102400047Xa.pdf/what-chinese-internet-users-like-to-read-selective-exposure-in-a-restricted-information-environment.pdf",
+      "withStudent": true
+    },
+    {
+      "authors": "Clark, Chelsey S, & Paluck, Elizabeth Levy, & Westwood, Sean J., & Sen, Maya, & Malhotra, Neil, & Jessee, Stephen",
+      "title": "Effects of a US Supreme Court ruling to restrict abortion rights",
+      "year": "2024",
+      "citationKey": "clark2024effects",
+      "journal": "Nature Human Behaviour",
+      "volume": "8",
+      "pages": "63\u201371",
+      "url": "https://www.nature.com/articles/s41562-023-01708-4.pdf",
+      "withStudent": true
+    },
+    {
+      "authors": "Goerger, Samantha, & Mummolo, Jonathan, & Westwood, Sean J.",
+      "title": "Which police departments want reform? Barriers to evidence-based policymaking",
+      "year": "2023",
+      "citationKey": "GoergerMummoloWestwood2019",
+      "journal": "Journal of Experimental Political Science",
+      "volume": "10",
+      "pages": "403\u2013412",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E56AF7E2B31CC50EA2C485EC36DBC1A6/S2052263022000215a.pdf/which-police-departments-want-reform-barriers-to-evidence-based-policymaking.pdf",
+      "withStudent": true
+    },
+    {
+      "authors": "Broockman, David E, & Kalla, Joshua L, & Westwood, Sean J.",
+      "title": "Does affective polarization undermine democratic norms or accountability? Maybe not",
+      "year": "2023",
+      "citationKey": "BroockmanWestwoodKalla2019",
+      "journal": "American Journal of Political Science",
+      "volume": "67",
+      "pages": "808\u2013828",
+      "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajps.12719",
+      "mediaCoverage": "New York Times"
+    },
+    {
+      "authors": "Westwood, Sean J., & Grimmer, Justin, & Tyler, Matthew, & Nall, Clayton",
+      "title": "Reply to Kalmoe and Mason: The pitfalls of using surveys to measure low-prevalence attitudes and behavior",
+      "year": "2022",
+      "citationKey": "GrimmerNallTylerWestwoodRep",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "volume": "119",
+      "pages": "e2207584119",
+      "url": "https://www.pnas.org/doi/epdf/10.1073/pnas.2207584119",
+      "withStudent": true
+    },
+    {
+      "authors": "Westwood, Sean J., & Grimmer, Justin, & Tyler, Matthew, & Nall, Clayton",
+      "title": "Current research overstates American support for political violence",
+      "year": "2022",
+      "citationKey": "GrimmerNallTylerWestwood",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "volume": "119",
+      "pages": "e2116870119",
+      "url": "https://www.pnas.org/doi/epdf/10.1073/pnas.2116870119",
+      "withStudent": true,
+      "mediaCoverage": "New York Times, FiveThirtyEight, ABC News"
+    },
+    {
+      "authors": "Davenport, Lauren D, & Iyengar, Shanto, & Westwood, Sean J.",
+      "title": "Racial identity, group consciousness, and attitudes: A framework for assessing multiracial self-classification",
+      "year": "2022",
+      "citationKey": "davenport2017",
+      "journal": "American Journal of Political Science",
+      "volume": "66",
+      "pages": "570\u2013586",
+      "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajps.12674"
+    },
+    {
+      "authors": "Westwood, Sean J.",
+      "title": "The partisanship of bipartisanship: How representatives use bipartisan assertions to cultivate support",
+      "year": "2022",
+      "citationKey": "westwood2017",
+      "journal": "Political Behavior",
+      "volume": "44",
+      "pages": "1411\u20131435",
+      "url": "https://link.springer.com/content/pdf/10.1007/s11109-020-09659-6.pdf",
+      "mediaCoverage": "The Hill, Vox"
+    },
+    {
+      "authors": "Westwood, Sean J., & Peterson, Erik",
+      "title": "The inseparability of race and partisanship in the United States",
+      "year": "2020",
+      "citationKey": "PetersonWestwood2017",
+      "journal": "Political Behavior",
+      "pages": "1\u201323",
+      "url": "https://link.springer.com/content/pdf/10.1007/s11109-020-09648-9.pdf",
+      "mediaCoverage": "New York Times"
+    },
+    {
+      "authors": "Westwood, Sean J., & Messing, Solomon, & Lelkes, Yphtach",
+      "title": "Projecting confidence: How the probabilistic horse race confuses and demobilizes the public",
+      "year": "2020",
+      "citationKey": "westwoodmessinglelkes2017",
+      "journal": "The Journal of Politics",
+      "volume": "82",
+      "pages": "1530\u20131544",
+      "url": "https://www.journals.uchicago.edu/doi/epdf/10.1086/708682",
+      "mediaCoverage": "New York Times, Washington Post, USA Today, and more"
+    },
+    {
+      "authors": "Mummolo, Jonathan, & Peterson, Erik, & Westwood, Sean J.",
+      "title": "The Limits of Partisan Loyalty",
+      "year": "2019",
+      "citationKey": "PetersonMummoloWestwood2017",
+      "journal": "Political Behavior",
+      "pages": "1\u201324",
+      "url": "https://link.springer.com/content/pdf/10.1007/s11109-019-09576-3.pdf",
+      "mediaCoverage": "Washington Post"
+    },
+    {
+      "authors": "Westwood, Sean J., & Peterson, Erik, & Lelkes, Yphtach",
+      "title": "Are there Still Limits on Partisan Prejudice?",
+      "year": "2019",
+      "citationKey": "WestwoodLelkes2017",
+      "journal": "Public Opinion Quarterly",
+      "volume": "83",
+      "pages": "584\u2013597",
+      "url": "https://academic.oup.com/poq/article-abstract/83/3/584/5573090"
+    },
+    {
+      "authors": "Iyengar, Shanto, & Lelkes, Yphtach, & Levendusky, Matthew, & Malhotra, Neil, & Westwood, Sean J.",
+      "title": "The origins and consequences of affective polarization in the United States",
+      "year": "2019",
+      "citationKey": "iyengar2019",
+      "journal": "Annual Review of Political Science",
+      "volume": "22",
+      "pages": "129\u2013146",
+      "url": "https://pcl.sites.stanford.edu/sites/g/files/sbiybj22066/files/media/file/iyengar-ar-origins.pdf",
+      "mediaCoverage": "New York Times"
+    },
+    {
+      "authors": "Cottrell, David, & Herron, Michael C, & Westwood, Sean J.",
+      "title": "An exploration of Donald Trump's allegations of massive voter fraud in the 2016 General Election",
+      "year": "2018",
+      "citationKey": "cottrelHerronWestwood2017",
+      "journal": "Electoral Studies",
+      "volume": "51",
+      "pages": "123\u2013142",
+      "url": "https://www.researchgate.net/publication/320672103_An_exploration_of_Donald_Trump's_allegations_of_massive_voter_fraud_in_the_2016_General_Election",
+      "mediaCoverage": "Washington Post, CNN, etc."
+    },
+    {
+      "authors": "Westwood, Sean J., & Iyengar, Shanto, & Walgrave, Stefaan, & Leonisio, Rafael, & Miller, Luis, & Strijbis, Oliver",
+      "title": "The tie that divides: Cross-national evidence of the primacy of partyism",
+      "year": "2018",
+      "citationKey": "westwood2015tie",
+      "journal": "European Journal of Political Research",
+      "volume": "57",
+      "pages": "333\u2013354",
+      "url": "https://ejpr.onlinelibrary.wiley.com/doi/epdf/10.1111/1475-6765.12228",
+      "mediaCoverage": "New York Times"
+    },
+    {
+      "authors": "Grimmer, Justin, & Messing, Solomon, & Westwood, Sean J.",
+      "title": "Estimating heterogeneous treatment effects and the effects of heterogeneous treatments with ensemble methods",
+      "year": "2017",
+      "citationKey": "grimmerMessingWestwood2014estimating",
+      "journal": "Political Analysis",
+      "volume": "25",
+      "pages": "413\u2013434.",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C7E3EA00D0AD83429CBE73F4F0C6652C/S1047198717000158a.pdf/estimating-heterogeneous-treatment-effects-and-the-effects-of-heterogeneous-treatments-with-ensemble-methods.pdf"
+    },
+    {
+      "authors": "Lelkes, Yphtach, & Westwood, Sean J.",
+      "title": "The Limits of Partisan Prejudice",
+      "year": "2017",
+      "citationKey": "lelkesWestwood2017",
+      "journal": "The Journal of Politics",
+      "volume": "79",
+      "pages": "485-501",
+      "url": "https://www.journals.uchicago.edu/doi/epdf/10.1086/688223"
+    },
+    {
+      "authors": "Iyengar, Shanto, & Westwood, Sean J.",
+      "title": "Fear and Loathing across Party Lines: New Evidence on Group Polarization",
+      "year": "2015",
+      "citationKey": "iyengarWestwood2015",
+      "journal": "American Journal of Political Science",
+      "volume": "59",
+      "pages": "690\u2013707",
+      "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajps.12152",
+      "mediaCoverage": "New York Times, Washington Post, Wall Street Journal, etc."
+    },
+    {
+      "authors": "Westwood, Sean J.",
+      "title": "The Role of Persuasion in Deliberative Opinion Change",
+      "year": "2015",
+      "citationKey": "westwood2015",
+      "journal": "Political Communication",
+      "volume": "32",
+      "pages": "509-528",
+      "url": "https://www.tandfonline.com/doi/epdf/10.1080/10584609.2015.1017628?needAccess=true"
+    },
+    {
+      "authors": "Messing, Solomon, & Westwood, Sean J.",
+      "title": "Selective Exposure in the Age of Social Media",
+      "year": "2014",
+      "citationKey": "messingWestwood2014",
+      "journal": "Communication Research",
+      "volume": "41",
+      "pages": "1042-1063",
+      "url": "https://journals.sagepub.com/doi/epub/10.1177/0093650212466406"
+    },
+    {
+      "authors": "Grimmer, Justin, & Messing, Solomon, & Westwood, Sean J.",
+      "title": "How Words and Money Cultivate a Personal Vote: The Effect of Legislator Credit Claiming on Constituent Credit Allocation",
+      "year": "2012",
+      "citationKey": "grimmermessingwestwood2012",
+      "journal": "American Political Science Review",
+      "volume": "106",
+      "pages": "703\u2013719",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7538BBE494CE31274DAE7F9F2E220F04/S0003055412000457a.pdf/how-words-and-money-cultivate-a-personal-vote-the-effect-of-legislator-credit-claiming-on-constituent-credit-allocation.pdf"
+    }
+  ],
+  "otherFieldPublications": [
+    {
+      "authors": "Lottridge, Danielle M, & Rosakranse, Christine, & Oh, Catherine S, & Westwood, Sean J., & Baldoni, Katherine A, & Mann, Abrey S, & Nass, Clifford I",
+      "title": "The Effects of Chronic Multitasking on Analytical Writing",
+      "year": "2015",
+      "citationKey": "lottridge2015",
+      "journal": "Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/2702123.2702367",
+      "withStudent": true
+    },
+    {
+      "authors": "Lew, Letitia, & Nguyen, Truc, & Messing, Solomon, & Westwood, Sean J.",
+      "title": "Of course I wouldn't do that in real life: advancing the arguments for increasing realism in HCI experiments",
+      "year": "2011",
+      "citationKey": "lew2011",
+      "journal": "CHI'11",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/1979742.1979621",
+      "withStudent": true
+    }
+  ],
+  "underReview": [
+    {
+      "authors": "15. Jacob, M., Wolken, S., Lelkes, Y., & Westwood, Sean J.",
+      "year": "2026",
+      "title": "Systemic electioneering from the evangelical pulpit: Evidence from a computational analysis",
+      "status": "R&R",
+      "journal": "Proceedings of the National Academy of Sciences"
+    },
+    {
+      "authors": "Holliday, D., Lelkes, Y., Ploger, G., & Westwood, Sean J.",
+      "year": "2026",
+      "title": "Skepticism and common ground in political reform: Navigating public, elite and partisan divides",
+      "status": "R&R",
+      "journal": "Nature Communications"
+    },
+    {
+      "authors": "Walk, E., Holliday, D. E., Lelkes, Y., & Westwood, Sean J.",
+      "year": "2026",
+      "title": "Defending democracy or fueling division? Admonishing anti-democratic behavior in a polarized nation",
+      "status": "R&R",
+      "journal": "British Journal of Political Science"
+    },
+    {
+      "authors": "Dancygier, R., Mummolo, J., & Westwood, Sean J.",
+      "year": "2026",
+      "title": "Nationalist frames erode opposition to violent hate crimes",
+      "status": "Under Review"
+    },
+    {
+      "authors": "Lelkes, Y., Walk, E., Hopkins, D. J., & Westwood, Sean J.",
+      "year": "2026",
+      "title": "Visibility of ideological outliers: A cross-platform analysis of the u.s. media ecosystem",
+      "status": "Under Review"
+    },
+    {
+      "authors": "Holliday, D. E., Mitchell, E. M., & Westwood, Sean J.",
+      "year": "2026",
+      "title": "Partisan affiliation dictates perceptions of and responses to political violence",
+      "status": "Under Review"
+    },
+    {
+      "authors": "Walk, E., Lelkes, Y., & Westwood, Sean J.",
+      "year": "2025b",
+      "title": "Meta-perceptions are pseudo-beliefs",
+      "status": "Under Review"
+    },
+    {
+      "authors": "Westwood, Sean J., Grimmer, J., & Hall.",
+      "year": "2025",
+      "title": "Measuring perceived slant in large language models through user evaluations",
+      "status": "Under Review"
+    },
+    {
+      "authors": "Holliday, D., & Westwood, Sean J.",
+      "year": "2025",
+      "title": "Most violence is political: Diagnosing the nature and threat of political violence in america",
+      "status": "Under Review"
+    },
+    {
+      "authors": "Brown, X., Lelkes, Y., & Westwood, Sean J.",
+      "year": "2025",
+      "title": "Political alliances shape affect but not belief systems",
+      "status": "Under Review"
+    },
+    {
+      "authors": "Holliday, D. E., Lelkes, Y., Mitchell, E. M., & Westwood, Sean J.",
+      "year": "2025",
+      "title": "America\u2019s political pulse: A database of democratic attitudes across all levels of U.S. government",
+      "status": "Under Review"
+    },
+    {
+      "authors": "Walk, E., Lelkes, Y., & Westwood, Sean J.",
+      "year": "2026",
+      "title": "Citizens of democracies value government responsiveness to crises over democratic norms",
+      "status": "Under Review"
+    },
+    {
+      "authors": "Lelkes, Y., Mitchell, E. M., Walk, E., & Westwood, Sean J.",
+      "year": "2026",
+      "title": "Public responses to atrocities depend on partisanship and context, not labels",
+      "status": "Under Review"
+    },
+    {
+      "authors": "Iyengar, S., Lelkes, Y., Levendusky, M., Malhotra, N., & Westwood, Sean J.",
+      "year": "2026",
+      "title": "Affective polarization: Recent developments and future directions",
+      "journal": "Annual Review of Political Science",
+      "status": "R&R"
+    }
+  ],
+  "worksInProgress": [
+    {
+      "authors": "Grimmer, J., Hersh, E., & Westwood, Sean J.",
+      "year": "2025",
+      "title": "How to measure the burdens of voting",
+      "withStudent": true
+    },
+    {
+      "authors": "5. Walk, E., Lelkes, Y., & Westwood, Sean J.",
+      "year": "2025a",
+      "title": "Media incentives and the amplification of ideological outliers in U.S. politics"
+    },
+    {
+      "authors": "Ploger, G., Lelkes, Y., & Westwood, Sean J.",
+      "year": "2025",
+      "title": "Measuring support for democratic norms"
+    },
+    {
+      "authors": "Tyler, M., Grimmer, J., & Westwood, Sean J.",
+      "year": "2025",
+      "title": "A statistical framework to engage the problem of disengaged survey respondents: Measuring public support for partisan violence",
+      "withStudent": true
+    },
+    {
+      "authors": "Jacob, M., Lelkes, Y., & Westwood, Sean J.",
+      "year": "2025",
+      "title": "Support for political violence in the United States in comparative perspective"
+    },
+    {
+      "authors": "Grimmer, J., Knox, D., & Westwood, Sean J.",
+      "year": "2025",
+      "title": "Determining the accuracy of probabilistic U.S. presidential election forecasts may take decades",
+      "status": "Under Review"
+    }
+  ],
+  "datasets": [
+    {
+      "authors": "Westwood, Sean J., & Lelkes, Yphtach",
+      "title": "America's Political Pulse - Elected Official Data",
+      "year": "2024",
+      "citationKey": "APPElite"
+    },
+    {
+      "authors": "Westwood, Sean J., & Lelkes, Yphtach",
+      "title": "America's Political Pulse - Citizen Survey Data",
+      "year": "2024",
+      "citationKey": "APPCitizen"
+    }
+  ],
+  "technicalReports": [
+    {
+      "authors": "Holliday, D.E., & Lelkes, Y., & Westwood, Sean J.",
+      "title": "The path to 2024 \u2013 American attitudes on the 2024 election",
+      "year": "2024",
+      "citationKey": "holliday2024election"
+    },
+    {
+      "authors": "Holliday, D.E., & Lelkes, Y., & Westwood, Sean J.",
+      "title": "The path to 2024 \u2013 American attitudes on political scientists",
+      "year": "2024",
+      "citationKey": "holliday2024political_scientists"
+    },
+    {
+      "authors": "Lelkes, Y., & Westwood, Sean J.",
+      "title": "The path to 2024 \u2013 American attitudes on democratic backsliding",
+      "year": "2024",
+      "citationKey": "lelkes2024backsliding"
+    },
+    {
+      "authors": "Lelkes, Y., & Westwood, Sean J.",
+      "title": "The path to 2024 \u2013 American support for SCOTUS",
+      "year": "2024",
+      "citationKey": "lelkes2024scotus"
+    },
+    {
+      "authors": "Lelkes, Y., & Westwood, Sean J.",
+      "title": "The path to 2024 \u2013 American support for culture war issues",
+      "year": "2024",
+      "citationKey": "lelkes2024culture_war"
+    },
+    {
+      "authors": "Holliday, D.E., & Lelkes, Y., & Westwood, Sean J.",
+      "title": "The path to 2024 \u2013 American attitudes on corporate political action",
+      "year": "2024",
+      "citationKey": "holliday2024corporate_action"
+    },
+    {
+      "authors": "Jacob, M.S., & Lelkes, Y., & Westwood, Sean J.",
+      "title": "Cross-national support for political violence",
+      "year": "2024",
+      "citationKey": "jacob2024violence"
+    },
+    {
+      "authors": "Jacob, M.S., & Lelkes, Y., & Westwood, Sean J.",
+      "title": "The path to 2024 \u2013 American attitudes on AI, misinformation, and democracy",
+      "year": "2024",
+      "citationKey": "jacob2024ai"
+    },
+    {
+      "authors": "Holliday, D.E., & Lelkes, Y., & Westwood, Sean J.",
+      "title": "The path to 2024 \u2013 American attitudes on immigration",
+      "year": "2024",
+      "citationKey": "holliday2024immigration"
+    },
+    {
+      "authors": "Lelkes, Y., & Westwood, Sean J.",
+      "title": "The path to 2024 \u2013 American support for partisan violence",
+      "year": "2024",
+      "citationKey": "lelkes2024partisan_violence"
+    },
+    {
+      "authors": "Holliday, D.E., & Lelkes, Y., & Westwood, Sean J.",
+      "title": "Holding Trump accountable has not threatened American democracy",
+      "year": "2023",
+      "citationKey": "holliday2023trump_accountability"
+    },
+    {
+      "authors": "Lelkes, Y., & Westwood, Sean J.",
+      "title": "Perceived vs. actual support for political violence",
+      "year": "2023",
+      "citationKey": "lelkes2023violence_perception"
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Advances in Experimental Political Science",
+      "authors": "Peterson, Erik, & Westwood, Sean J., & Iyengar, Shanto",
+      "year": 2020,
+      "book": "",
+      "editors": "Druckman, James N. and Green, Donald P.",
+      "publisher": "Cambridge University Press",
+      "citationKey": "petersonWestwoodIyengar18"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Cozzarelli Prize",
+      "institution": "National Academy of Sciences",
+      "year": 2025
+    },
+    {
+      "name": "Friedman Fellowship",
+      "institution": "Dartmouth College",
+      "year": 2021
+    },
+    {
+      "name": "Roberta Sigel Junior Scholar Paper Award",
+      "institution": "International Society of Political Psychology",
+      "year": 2015
+    },
+    {
+      "name": "Nathan Maccoby Dissertation Award",
+      "institution": "Stanford University",
+      "year": 2015
+    },
+    {
+      "name": "Burke Award",
+      "institution": "Dartmouth College",
+      "year": 2015
+    }
+  ],
+  "grants": [
+    {
+      "title": "Polarization Research Lab",
+      "funder": "Private Gift",
+      "role": "PI",
+      "amount": "$50,000",
+      "year": "2025"
+    },
+    {
+      "title": "Polarization Research Lab",
+      "funder": "Private Gift",
+      "role": "PI",
+      "amount": "$100,000",
+      "year": "2025"
+    },
+    {
+      "title": "Polarization Research Lab",
+      "funder": "Charles Koch Foundation",
+      "role": "PI",
+      "amount": "$533,000",
+      "year": "2024-2025"
+    },
+    {
+      "title": "Polarization Research Lab",
+      "funder": "Carnegie Corporation",
+      "role": "PI",
+      "amount": "$500,000",
+      "year": "2024-2027"
+    },
+    {
+      "title": "Polarization Research Lab",
+      "funder": "William H. Neukom Institute for Computational Science",
+      "role": "PI",
+      "amount": "$40,000",
+      "year": "2024"
+    },
+    {
+      "title": "Polarization Research Lab",
+      "funder": "Charles Koch Foundation",
+      "role": "PI",
+      "amount": "$3,350,000",
+      "year": "2022-2025"
+    },
+    {
+      "title": "Polarization Research Lab",
+      "funder": "William & Flora Hewlett Foundation",
+      "role": "PI",
+      "amount": "$250,000",
+      "year": "2023-2026"
+    },
+    {
+      "title": "Polarization Research Lab",
+      "funder": "Institute for Humane Studies",
+      "role": "PI",
+      "amount": "$20,000",
+      "year": "2023-2024"
+    },
+    {
+      "title": "Polarization Research Lab",
+      "funder": "Knight Foundation",
+      "role": "PI",
+      "amount": "$450,000",
+      "year": "2023-2026"
+    },
+    {
+      "title": "Polarization Research Lab",
+      "funder": "Templeton World Charity Foundation",
+      "role": "PI",
+      "amount": "$649,644",
+      "year": "2023-2026"
+    },
+    {
+      "title": "Polarization Research Lab",
+      "funder": "New Pluralists",
+      "role": "PI",
+      "amount": "$100,000",
+      "year": "2022-2023"
+    },
+    {
+      "title": "American National Election Study",
+      "funder": "National Science Foundation",
+      "role": "",
+      "amount": "$60,000",
+      "year": "2022-2023"
+    },
+    {
+      "title": "Demonstrating the minimal effects of Facebook on affective polarization",
+      "funder": "Facebook",
+      "role": "PI",
+      "amount": "$100,000",
+      "year": "2019"
+    },
+    {
+      "title": "Research Gift",
+      "funder": "Facebook",
+      "role": "PI",
+      "amount": "$25,000",
+      "year": "2018"
+    },
+    {
+      "title": "Networking the News: The Impact of Social News Ratings on Media Consumption Heuristics and Agenda Setting",
+      "funder": "Google",
+      "role": "Co-PI",
+      "amount": "$60,333",
+      "year": "2010"
+    }
+  ],
+  "invitedTalks": [
+    {
+      "institution": "Oakland University",
+      "year": 2026
+    },
+    {
+      "institution": "Taiwan Empirical Survey Data (Keynote)",
+      "year": 2026
+    },
+    {
+      "institution": "Text-as-Data Reading Group",
+      "year": 2026
+    },
+    {
+      "institution": "Imagine Conference",
+      "year": 2026
+    },
+    {
+      "institution": "University of Vermont",
+      "year": 2026
+    },
+    {
+      "institution": "University of Idaho",
+      "year": 2026
+    },
+    {
+      "institution": "Yale",
+      "year": 2026
+    },
+    {
+      "institution": "Princeton Psych",
+      "year": 2026
+    },
+    {
+      "institution": "NYU Political Science",
+      "year": 2026
+    },
+    {
+      "institution": "NYU Psych",
+      "year": 2026
+    },
+    {
+      "institution": "Imagine Conference",
+      "year": 2026
+    },
+    {
+      "institution": "University of California",
+      "year": 2026
+    },
+    {
+      "institution": "Pew Research Center",
+      "year": 2025
+    },
+    {
+      "institution": "Charles Koch Foundation",
+      "year": 2025
+    },
+    {
+      "institution": "University of Toronto",
+      "year": 2025
+    },
+    {
+      "institution": "University of Indiana",
+      "year": 2025
+    },
+    {
+      "institution": "University of Pennsylvania",
+      "year": 2025
+    },
+    {
+      "institution": "Institute for Humane Studies",
+      "year": 2025
+    },
+    {
+      "institution": "Yale Law School",
+      "year": 2025
+    },
+    {
+      "institution": "Princeton",
+      "year": 2025
+    },
+    {
+      "institution": "Hoover Institution",
+      "year": 2025
+    },
+    {
+      "institution": "Princeton Center for the Study of Democratic Politics",
+      "year": 2025
+    },
+    {
+      "institution": "Princeton",
+      "year": 2025
+    },
+    {
+      "institution": "University of California",
+      "year": 2025
+    },
+    {
+      "institution": "Texas A&M",
+      "year": 2025
+    },
+    {
+      "institution": "Masaryk University",
+      "year": 2024
+    },
+    {
+      "institution": "University of Chicago, Harris",
+      "year": 2024
+    },
+    {
+      "institution": "New Hampshire Bar Association",
+      "year": 2024
+    },
+    {
+      "institution": "European University Institute",
+      "year": 2024
+    },
+    {
+      "institution": "Notre Dame",
+      "year": 2024
+    },
+    {
+      "institution": "Harvard/MIT Polarization Conference",
+      "year": 2024
+    },
+    {
+      "institution": "Cloud Research",
+      "year": 2023
+    },
+    {
+      "institution": "National Governors Association",
+      "year": 2023
+    },
+    {
+      "institution": "Institute for Humane Studies",
+      "year": 2023
+    },
+    {
+      "institution": "Salve Regina University",
+      "year": 2023
+    },
+    {
+      "institution": "University of Pennsylvania",
+      "year": 2023
+    },
+    {
+      "institution": "Hoover Institution",
+      "year": 2023
+    },
+    {
+      "institution": "Hoover Institution",
+      "year": 2023
+    },
+    {
+      "institution": "Stanford University",
+      "year": 2023
+    },
+    {
+      "institution": "Rice University",
+      "year": 2023
+    },
+    {
+      "institution": "University of Wisconsin",
+      "year": 2021
+    },
+    {
+      "institution": "Facebook",
+      "year": 2019
+    },
+    {
+      "institution": "University of California, San Diego",
+      "year": 2019
+    },
+    {
+      "institution": "University of Pennsylvania",
+      "year": 2018
+    }
+  ],
+  "conferencePresentations": [
+    {
+      "conference": "American Political Science Association",
+      "year": 2011
+    },
+    {
+      "conference": "American Political Science Association",
+      "year": 2011
+    },
+    {
+      "conference": "American Political Science Association",
+      "year": 2012
+    },
+    {
+      "conference": "American Political Science Association",
+      "year": 2013
+    },
+    {
+      "conference": "American Political Science Association",
+      "year": 2015
+    },
+    {
+      "conference": "American Political Science Association",
+      "year": 2016
+    },
+    {
+      "conference": "American Political Science Association",
+      "year": 2019
+    },
+    {
+      "conference": "American Political Science Association",
+      "year": 2023
+    },
+    {
+      "conference": "American Political Science Association",
+      "year": 2024
+    },
+    {
+      "conference": "American Political Science Association",
+      "year": 2024
+    },
+    {
+      "conference": "American Political Science Association",
+      "year": 2024
+    },
+    {
+      "conference": "American Political Science Association",
+      "year": 2025
+    },
+    {
+      "conference": "Midwestern Political Science Association",
+      "year": 2011
+    },
+    {
+      "conference": "Midwestern Political Science Association",
+      "year": 2011
+    },
+    {
+      "conference": "Midwestern Political Science Association",
+      "year": 2012
+    },
+    {
+      "conference": "Midwestern Political Science Association",
+      "year": 2012
+    },
+    {
+      "conference": "Midwestern Political Science Association",
+      "year": 2013
+    },
+    {
+      "conference": "Midwestern Political Science Association",
+      "year": 2014
+    },
+    {
+      "conference": "Midwestern Political Science Association",
+      "year": 2014
+    },
+    {
+      "conference": "Midwestern Political Science Association",
+      "year": 2015
+    },
+    {
+      "conference": "Midwestern Political Science Association",
+      "year": 2018
+    },
+    {
+      "conference": "Midwestern Political Science Association",
+      "year": 2019
+    },
+    {
+      "conference": "Midwestern Political Science Association",
+      "year": 2024
+    },
+    {
+      "conference": "Midwestern Political Science Association",
+      "year": 2025
+    },
+    {
+      "conference": "Southern Political Science Association",
+      "year": 2017
+    },
+    {
+      "conference": "IC2S2",
+      "year": 2024
+    },
+    {
+      "conference": "IC2S2",
+      "year": 2025
+    },
+    {
+      "conference": "PolMeth",
+      "year": 2013
+    },
+    {
+      "conference": "PolMeth",
+      "year": 2024
+    },
+    {
+      "conference": "PolMeth",
+      "year": 2025
+    },
+    {
+      "conference": "International Society of Political Psychology",
+      "year": 2012
+    },
+    {
+      "conference": "International Society of Political Psychology",
+      "year": 2014
+    },
+    {
+      "conference": "AAPOR",
+      "year": 2011
+    },
+    {
+      "conference": "AAPOR",
+      "year": 2011
+    },
+    {
+      "conference": "AAPOR",
+      "year": 2011
+    },
+    {
+      "conference": "AAPOR",
+      "year": 2013
+    },
+    {
+      "conference": "AAPOR",
+      "year": 2025
+    },
+    {
+      "conference": "PAPOR",
+      "year": 2010
+    },
+    {
+      "conference": "PAPOR",
+      "year": 2013
+    },
+    {
+      "conference": "MAPOR",
+      "year": 2009
+    },
+    {
+      "conference": "NCA",
+      "year": 2010
+    },
+    {
+      "conference": "NCA",
+      "year": 2010
+    },
+    {
+      "conference": "ICA",
+      "year": 2010
+    },
+    {
+      "conference": "ICA",
+      "year": 2010
+    },
+    {
+      "conference": "ICA",
+      "year": 2013
+    },
+    {
+      "conference": "ICA",
+      "year": 2013
+    },
+    {
+      "conference": "ICA",
+      "year": 2018
+    }
+  ],
+  "service": [
+    {
+      "role": "Associate Editor, Public Opinion Quarterly",
+      "year": "2024-"
+    },
+    {
+      "role": "Member APSR Editorial Board",
+      "year": "2024-"
+    },
+    {
+      "role": "Member APSA Task Force on AI and Public Opinion",
+      "year": ""
+    },
+    {
+      "role": "Advisory Committee for US Democracy Futures Project",
+      "year": "2024-"
+    },
+    {
+      "role": "APSA Centennial Scholar Reviewer",
+      "year": ""
+    },
+    {
+      "role": "APSA Political Communication Section \u2013- Doris Graber Outstanding Book Award Committee Member",
+      "year": ""
+    },
+    {
+      "role": "Chair for the Voting Behavior Section, Program Committee for the 2020 MPSA",
+      "year": ""
+    },
+    {
+      "role": "Member Social Science One Polarization Committee",
+      "year": ""
+    },
+    {
+      "role": "Member APSA 2015 Experimental Section Best Paper Committee",
+      "year": ""
+    },
+    {
+      "role": "Convener Dartmouth Government Seminar Series",
+      "year": "2016-"
+    },
+    {
+      "role": "Political Communication, Editorial Assistant",
+      "year": "2012-"
+    }
+  ],
+  "teachingEvaluations": [
+    {
+      "course": "Conservatism, Liberalism, and American Culture Wars",
+      "term": "Winter",
+      "year": 2026,
+      "pdfUrl": "https://americaspoliticalpulse.com/files/teaching-evaluations/2026-winter-conservatism-liberalism-and-american-culture-wars.pdf",
+      "courseQualityMean": 1.1,
+      "teachingEffectivenessMean": 1.1,
+      "positiveComments": [
+        "Best professor ever! Westwood has high expectations but it made me work really hard. He clearly put a lot of time and research into each lecture, and it\ndefinitely impacted the learning experience overall. The presentations starting in week 6 allows students to do the work Westwood had been doing for a\nweek on topics we were not comfortable with (topics that went against our own views), which fulfilled the goal of the course as a whole.",
+        "Explained arguments clearly",
+        "Greatest professor in the department. Not even close.",
+        "He was very good at lecturing. Professor Westwood always had an answer to a question in class",
+        "I loved the lecture and questions style, it was well balances and allowed us to really debate and discuss delicate topics, also the student presentations I\nthink helped me become a better presenter",
+        "Lectures",
+        "Lectures and discussions",
+        "Professor Westwood is SO knowledgeable about every topic we covered. His class was so engaging, informative, and backed by data. Great discussions\nemerged from his presentations. I did not want to miss a single class. He pushed everyone to think deeper about each topic. His teaching was unbiased.\nHe created a safe space where everyone felt welcome to contribute to heated discussions. He welcomed every perspective. Incredible class.",
+        "Professor Westwood is the best professor I have had at Dartmouth. He is deeply educated on each topic he presents in class, clearly having put hours of\nresearch and thought into each lecture. He handles - and asks - questions with poise and careful consideration. Furthermore, he is a great\nconversationalist and listens to students concerns as a helpful and honest resource. A politically open minded professor is hard to come by, but Professor\nWestwood has accomplished this extraordinarily well.\n\nCOURSE ASSESSMENT REPORTS - Student Initiated Comments",
+        "This class is obviously unlike any other at Dartmouth, and I think it's needed. Westwood was an EXCELLENT lecturer. He has a way of using a storytelling\nstyle unlike I've ever seen before and I felt so fortunate to learn from him every day. Additionally, the amount of data he presented on every topic was\nincredible and I think this style very much improved my understanding and ability to craft an objective argument.",
+        "kept his own opinions removed, focusing on the side he represented. very unemotional, especially for some of the more contentious issues; completely\nfact and research-based. did not really weigh in on student opinions; allowed them to be shared without validating or undermining them -- this created an\nenvironment where anyone could share without feeling like they were judged or had to say what the prof wanted to hear."
+      ]
+    },
+    {
+      "course": "Quantitive Political Analysis",
+      "term": "Winter",
+      "year": 2026,
+      "pdfUrl": "https://americaspoliticalpulse.com/files/teaching-evaluations/2026-winter-quantitive-political-analysis.pdf",
+      "courseQualityMean": 1.2,
+      "teachingEffectivenessMean": 1.2,
+      "positiveComments": [
+        "Everything mentioned above. Westwood is a fabulous teacher, and you can't even get annoyed with him when the concepts are difficult because he's\nclearly so knowledgable and explains them so well. He should continue with the overall structure of the class and homework.",
+        "Incredibly charismatic and knowledgeable lecturer.",
+        "Integrating 6 7 into the slides LOL In general very engaging / helped explain statistical concepts to everyone in room with banter",
+        "Professor Westwood is very engaging and cares to get to know his students. It doesn't go unnoticed and is appreciated.",
+        "Professor Westwood was very available to meet outside of class if we had questions. He seemed individually invested in all of our learning experiences,\nwhich I really appreciated. He also was sure to make lecture engaging, encouraged questions and participation, and was eager to have interesting\ndiscussions.",
+        "Professor Westwood was very kind and helpful, always willing to answer questions during class and in office hours. He was very fair. The examples he\nused in class were interesting and helped me understand complex concepts. Professor Westwood was very personable and great at making students feel\ncomfortable in class and in office hours. He's funny. I honestly can't glaze him enough. Thank you Prof Westwood.",
+        "nothing, best proof ever!!"
+      ]
+    },
+    {
+      "course": "Political Communication",
+      "term": "Fall",
+      "year": 2025,
+      "pdfUrl": "https://americaspoliticalpulse.com/files/teaching-evaluations/2025-fall-political-communication.pdf",
+      "courseQualityMean": 1.2,
+      "teachingEffectivenessMean": 1.2,
+      "positiveComments": [
+        "- Explain concepts in lecture very clearly",
+        "Being there for students but challenging them in a very respectful way. Lectures are also great and easy to understand",
+        "I think prof Westwood is one of the best ive had at Dartmouth and this is due to many things including his dynamic teaching style. his enthusiasm and\nenergy made the class engaging and helped maintain student interest. Including the thoughtful selection of readings and materials, and the variety of\nperspectives and case studies enriched the course. As well as the inclusive classroom atmosphere, he encouraged respectful dialogue and made it easy\nfor students with different viewpoints to participate.",
+        "Kept a light, casual, intellectually-curious atmosphere. Really enjoyable to be in class. Also explained things clearly.",
+        "Literally the best professor I have had during my four years here as a government major",
+        "the professor was hilarious and made the classroom vibes really positive"
+      ]
+    },
+    {
+      "course": "Policy Implementation",
+      "term": "Spring",
+      "year": 2025,
+      "pdfUrl": "https://americaspoliticalpulse.com/files/teaching-evaluations/2025-spring-policy-implementation.pdf",
+      "courseQualityMean": 1.3,
+      "teachingEffectivenessMean": 1.1,
+      "positiveComments": [
+        "I enjoyed the structure of the class, especially the emphasis on self-driven simulations that placed us within the context of realistic scenarios. I also\nenjoyed the communal nature of the class--it made it a lot easier to learn from one another as we chipped in our commentary.",
+        "I liked turning the 3a into one class and then having the x hour. That long block period made learning easier.",
+        "The professor did an excellent job introducing many relevant examples in order to defend his assertions in class, which I appreciated. His humor and\ninteresting comparisons helped keep lectures engaging. He took full advantage of the small class size to foster a more conversational atmosphere; he was\nhowever still fully able to command respect."
+      ]
+    }
+  ]
+}

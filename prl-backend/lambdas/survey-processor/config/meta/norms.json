@@ -1,0 +1,22 @@
+{
+    "norm_judges": {
+        "label": "Ignoring Court Decisions",
+        "question": "Do you agree or disagree: Your party's elected officials should sometimes consider ignoring court decisions when the judges who issued those decisions were appointed by a president from the other party."
+    },
+    "norm_polling": {
+        "label": "Reducing Polling Stations",
+        "question": "Do you agree or disagree: Your party should reduce the number of polling stations in areas that typically support the other party."
+    },
+    "norm_executive": {
+        "label": "Use of Executive Orders",
+        "question": "Do you agree or disagree: If your party's president can't get cooperation from the other party's members of congress to pass new laws, your party's president should circumvent Congress and issue executive orders on their own to accomplish their priorities."
+    },
+    "norm_censorship": {
+        "label": "Media Censorship",
+        "question": "Do you agree or disagree with the following: The government should be able to censor media sources that spend more time attacking your party than the other party."
+    },
+    "norm_loyalty": {
+        "label": "Party Loyalty",
+        "question": "Do you agree or disagree with the following: When your party's candidate questions the outcome of an election other members of your party should be more loyal to your party than to election rules and the constitution."
+    }
+}

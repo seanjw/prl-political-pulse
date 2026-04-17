@@ -1,0 +1,6 @@
+# Lambda Search API Dependencies
+flask>=2.3.0
+sqlalchemy>=2.0.0
+pymysql>=1.1.0
+boto3>=1.28.0
+zappa>=0.59.0

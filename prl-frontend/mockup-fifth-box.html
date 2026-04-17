@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mockup: 5th Dashboard Box</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Source Sans 3', sans-serif; background: #f8f9fa; padding: 2rem; }
+
+  h1 {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #1e293b;
+  }
+  .subtitle {
+    font-size: 1rem;
+    color: #64748b;
+    margin-bottom: 2rem;
+    max-width: 800px;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .rich-card {
+    position: relative;
+    border-radius: 20px;
+    padding: 1.5rem;
+    min-height: 200px;
+    overflow: hidden;
+    display: flex;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .rich-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px -10px rgba(0,0,0,0.2);
+  }
+
+  .rich-card-inner {
+    position: relative;
+    z-index: 2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rich-card-icon {
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    opacity: 0.15;
+    z-index: 1;
+  }
+
+  .rich-card-title {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    line-height: 1.2;
+  }
+  .rich-card-description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 0.75rem;
+    max-width: 90%;
+  }
+  .rich-card-stats {
+    display: flex;
+    gap: 2rem;
+  }
+  .rich-card-stat {
+    display: flex;
+    flex-direction: column;
+  }
+  .rich-card-stat-value {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+  }
+  .rich-card-stat-label {
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.7);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 0.25rem;
+  }
+  .rich-card-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1rem;
+    background: white;
+    color: #1e293b;
+    font-weight: 600;
+    font-size: 0.825rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .rich-card-btn:hover {
+    background: rgba(255,255,255,0.9);
+    transform: translateY(-1px);
+  }
+
+  .flex { display: flex; }
+  .justify-between { justify-content: space-between; }
+  .items-start { align-items: flex-start; }
+  .mb-2 { margin-bottom: 0.5rem; }
+
+  /* Existing colors */
+  .rich-card-blue { background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%); color: white; }
+  .rich-card-red { background: linear-gradient(135deg, #991b1b 0%, #dc2626 50%, #f87171 100%); color: white; }
+  .rich-card-purple { background: linear-gradient(135deg, #5b21b6 0%, #8b5cf6 50%, #a78bfa 100%); color: white; }
+  .rich-card-green { background: linear-gradient(135deg, #065f46 0%, #10b981 50%, #34d399 100%); color: white; }
+
+  /* NEW: Orange/Amber for 2026 Elections */
+  .rich-card-orange {
+    background: linear-gradient(135deg, #92400e 0%, #d97706 50%, #fbbf24 100%);
+    color: white;
+  }
+
+  /* Featured card spans full width */
+  .rich-card-featured {
+    grid-column: 1 / -1;
+  }
+
+  .arrow-icon {
+    width: 16px;
+    height: 16px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Data dashboards</h1>
+<p class="subtitle">Open data and research on how Americans view democracy, how their representatives communicate, and how democratic attitudes vary worldwide.</p>
+
+<div class="card-grid">
+
+  <!-- NEW: 2026 US Elections - Orange, full width featured -->
+  <a href="/primary" class="rich-card rich-card-orange rich-card-featured" style="text-decoration:none">
+    <div class="rich-card-inner">
+      <div class="flex justify-between items-start mb-2">
+        <h2 class="rich-card-title">2026 US Elections</h2>
+        <div class="rich-card-stats">
+          <div class="rich-card-stat">
+            <span class="rich-card-stat-value">2,870</span>
+            <span class="rich-card-stat-label">Candidates</span>
+          </div>
+          <div class="rich-card-stat">
+            <span class="rich-card-stat-value">471</span>
+            <span class="rich-card-stat-label">Races</span>
+          </div>
+          <div class="rich-card-stat">
+            <span class="rich-card-stat-value">Daily</span>
+            <span class="rich-card-stat-label">Updates</span>
+          </div>
+        </div>
+      </div>
+      <p class="rich-card-description">
+        Track every 2026 primary and general election candidate for Congress—their rhetoric, campaign finance, social media activity, and how they compare.
+      </p>
+      <div class="rich-card-actions">
+        <span class="rich-card-btn">
+          Explore 2026 Elections Dashboard
+          <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        </span>
+      </div>
+    </div>
+    <div class="rich-card-icon">
+      <svg width="120" height="120" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="0.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+      </svg>
+    </div>
+  </a>
+
+  <!-- American Views on Democracy - Blue -->
+  <a href="/citizens" class="rich-card rich-card-blue" style="text-decoration:none">
+    <div class="rich-card-inner">
+      <div class="flex justify-between items-start mb-2">
+        <h2 class="rich-card-title">American Views on Democracy</h2>
+        <div class="rich-card-stats">
+          <div class="rich-card-stat">
+            <span class="rich-card-stat-value">146</span>
+            <span class="rich-card-stat-label">Waves</span>
+          </div>
+          <div class="rich-card-stat">
+            <span class="rich-card-stat-value">158K</span>
+            <span class="rich-card-stat-label">Responses</span>
+          </div>
+        </div>
+      </div>
+      <p class="rich-card-description">Weekly survey data on how Democrats and Republicans view each other, support for democratic norms, and openness to political violence.</p>
+      <div class="rich-card-actions">
+        <span class="rich-card-btn">
+          Explore American Democracy Dashboard
+          <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        </span>
+      </div>
+    </div>
+    <div class="rich-card-icon">
+      <svg width="120" height="120" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="0.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/>
+      </svg>
+    </div>
+  </a>
+
+  <!-- American Political Violence - Red -->
+  <a href="/violence" class="rich-card rich-card-red" style="text-decoration:none">
+    <div class="rich-card-inner">
+      <div class="flex justify-between items-start mb-2">
+        <h2 class="rich-card-title">American Political Violence</h2>
+        <div class="rich-card-stats">
+          <div class="rich-card-stat">
+            <span class="rich-card-stat-value">Daily</span>
+            <span class="rich-card-stat-label">Updates</span>
+          </div>
+        </div>
+      </div>
+      <p class="rich-card-description">A comprehensive database of political violence incidents in the United States from 1970 to present.</p>
+      <div class="rich-card-actions">
+        <span class="rich-card-btn">
+          Explore Political Violence Dashboard
+          <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        </span>
+      </div>
+    </div>
+    <div class="rich-card-icon">
+      <svg width="120" height="120" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="0.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+      </svg>
+    </div>
+  </a>
+
+  <!-- How American Legislators Communicate - Purple -->
+  <a href="/elites" class="rich-card rich-card-purple" style="text-decoration:none">
+    <div class="rich-card-inner">
+      <div class="flex justify-between items-start mb-2">
+        <h2 class="rich-card-title">How American Legislators Communicate</h2>
+        <div class="rich-card-stats">
+          <div class="rich-card-stat">
+            <span class="rich-card-stat-value">Daily</span>
+            <span class="rich-card-stat-label">Updates</span>
+          </div>
+          <div class="rich-card-stat">
+            <span class="rich-card-stat-value">7.6M</span>
+            <span class="rich-card-stat-label">Statements</span>
+          </div>
+        </div>
+      </div>
+      <p class="rich-card-description">What every member of Congress and state legislator says publicly—speeches, press releases, and social media—classified by AI in real-time.</p>
+      <div class="rich-card-actions">
+        <span class="rich-card-btn">
+          Explore Legislator Quality Dashboard
+          <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        </span>
+      </div>
+    </div>
+    <div class="rich-card-icon">
+      <svg width="120" height="120" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="0.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"/>
+      </svg>
+    </div>
+  </a>
+
+  <!-- Global Democracy - Green -->
+  <a href="/citizens/international" class="rich-card rich-card-green" style="text-decoration:none">
+    <div class="rich-card-inner">
+      <div class="flex justify-between items-start mb-2">
+        <h2 class="rich-card-title">Global Democracy</h2>
+        <div class="rich-card-stats">
+          <div class="rich-card-stat">
+            <span class="rich-card-stat-value">9</span>
+            <span class="rich-card-stat-label">Rounds</span>
+          </div>
+          <div class="rich-card-stat">
+            <span class="rich-card-stat-value">225K</span>
+            <span class="rich-card-stat-label">Responses</span>
+          </div>
+        </div>
+      </div>
+      <p class="rich-card-description">How citizens in the United States, India, Israel, Brazil, Poland, and Germany view democracy and each other's political parties.</p>
+      <div class="rich-card-actions">
+        <span class="rich-card-btn">
+          Explore Global Democracy Dashboard
+          <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+        </span>
+      </div>
+    </div>
+    <div class="rich-card-icon">
+      <svg width="120" height="120" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="0.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+      </svg>
+    </div>
+  </a>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+fastapi
+tortoise-orm
+asyncmy
+mangum
+boto3
+pydantic
+pymysql
+httpx

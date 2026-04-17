@@ -1,0 +1,47 @@
+#!/bin/bash
+set -e
+
+TEAM_DIR="/Users/seanwestwood/Drive/Non PRL Research/americas-political-pulse/prl-frontend/public/img/team"
+BASE_URL="https://polarizationresearchlab.wpcomstaging.com/wp-content/uploads"
+
+mkdir -p "$TEAM_DIR"
+cd "$TEAM_DIR"
+
+# Download all team images
+curl -sLO "$BASE_URL/2023/03/Yphtach.jpeg"
+curl -sLO "$BASE_URL/2023/03/Emma-headshot-1.jpg"
+curl -sLO "$BASE_URL/2025/07/Ellie.jpeg"
+curl -sLO "$BASE_URL/2025/07/Sam-1.jpg"
+curl -sLO "$BASE_URL/2024/06/erin_walk-1.jpg"
+curl -sLO "$BASE_URL/2023/05/Nicholas_Dias.jpeg"
+curl -sLO "$BASE_URL/2023/05/Neil-Fasching-1.jpeg"
+curl -sLO "$BASE_URL/2024/02/Sam-Wolken-1.jpeg"
+curl -sLO "$BASE_URL/2023/03/David_Brady.jpeg"
+curl -sLO "$BASE_URL/2023/03/Lauren_Davenport.jpeg"
+curl -sLO "$BASE_URL/2023/03/druckman4.jpeg"
+curl -sLO "$BASE_URL/2023/03/Morris_Fiorina-1.jpeg"
+curl -sLO "$BASE_URL/2023/03/justin-grimmer.jpeg"
+curl -sLO "$BASE_URL/2021/07/hopkins_daniel.jpeg"
+curl -sLO "$BASE_URL/2021/08/jerit.jpeg"
+curl -sLO "$BASE_URL/2023/03/Samara_Klar-1.jpeg"
+curl -sLO "$BASE_URL/2021/07/levendusky_092017.jpeg"
+curl -sLO "$BASE_URL/2023/03/Diana_Mutz-1.jpeg"
+curl -sLO "$BASE_URL/2023/03/Neil_Malhotra-1.jpeg"
+curl -sLO "$BASE_URL/2023/03/Betsy_Paluck.jpeg"
+curl -sLO "$BASE_URL/2023/03/Molly_Roberts.jpeg"
+curl -sLO "$BASE_URL/2023/03/erin-1.jpeg"
+curl -sLO "$BASE_URL/2023/03/Brandon_Stewart.jpeg"
+curl -sLO "$BASE_URL/2021/07/emily.jpeg"
+curl -sLO "$BASE_URL/2024/09/White_headshot.jpg"
+curl -sLO "$BASE_URL/2023/08/Sumitra.jpeg"
+curl -sLO "$BASE_URL/2023/04/anna-grzymala-busse.jpeg"
+curl -sLO "$BASE_URL/2023/03/Jeremy_Ferwerda.webp"
+curl -sLO "$BASE_URL/2023/03/noam_gidron.jpeg"
+curl -sLO "$BASE_URL/2023/08/virginia_rocha.jpeg"
+curl -sLO "$BASE_URL/2023/03/hidalgo-1.jpeg"
+curl -sLO "$BASE_URL/2023/07/Nalepa.jpeg"
+curl -sLO "$BASE_URL/2023/03/lior_sheffer-1.jpg"
+curl -sLO "$BASE_URL/2023/03/Weiss.jpeg"
+
+echo "Downloaded $(ls -1 | wc -l) images"
+ls -la

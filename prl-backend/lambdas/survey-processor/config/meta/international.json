@@ -1,0 +1,80 @@
+{
+    "dates": {
+        "wave1": "2024-01",
+        "wave2": "2024-04",
+        "wave3": "2024-07",
+        "wave4": "2024-10",
+        "wave5": "2025-01",
+        "wave6": "2025-04",
+        "wave7": "2025-07",
+        "wave8": "2025-10",
+        "wave9": "2026-01"
+    },
+    "BR": {
+        "label": "Brazil",
+        "violence_questions": ["violence1", "violence2", "violence3", "violence4", "violence5", "violence6"],
+        "norm_questions": ["norm_judges", "norm_polling", "norm_executive", "norm_censorship", "norm_loyalty"],
+        "party_therm_map": {
+            "PT": "pt_therm_1",
+            "PL": "pl_therm_1",
+            "PMDB/MDB": "mdb_therm_1",
+            "PSDB": "psdb_therm_1",
+            "PSOL": "psol_therm_1",
+            "PDT": "pdt_therm_1",
+            "NOVO": "novo_therm_1"
+        }
+    },
+    "DE": {
+        "label": "Germany",
+        "violence_questions": ["violence1", "violence2", "violence3", "violence4", "violence5", "violence6"],
+        "norm_questions": ["norm_media_censorship", "norm_nomination", "norm_eu", "norm_dissolve", "norm_extremists"],
+        "party_therm_map": {
+            "SPD (Sozialdemokratische Partei Deutschlands)": "spd_therm_1",
+            "CDU/CSU (Christlich Demokratische Union/Christlich-Soziale Union)": "cdu_therm_1",
+            "Bündnis 90/Die Grünen": "greens_therm_1",
+            "FDP (Freie Demokratische Partei)": "fdp_therm_1",
+            "AfD (Alternative für Deutschland)": "afd_therm_1",
+            "Die Linke": "left_therm_1"
+        }
+    },
+    "IL": {
+        "label": "Israel",
+        "violence_questions": ["violence1", "violence2", "violence3", "violence4", "violence5", "violence6"],
+        "norm_questions": ["norm_judges", "norm_polling", "norm_executive", "norm_censorship", "norm_loyalty"],
+        "party_therm_map": {},
+        "party_code_map": {
+            "1": "Likud",
+            "2": "Yesh Atid",
+            "3": "National Unity",
+            "4": "Shas",
+            "5": "Religious Zionism",
+            "6": "United Torah Judaism",
+            "7": "Otzma Yehudit",
+            "8": "Yisrael Beiteinu",
+            "11": "Labor"
+        }
+    },
+    "IN": {
+        "label": "India",
+        "violence_questions": ["violence1", "violence2", "violence3", "violence4", "violence5", "violence6"],
+        "norm_questions": ["norm_judges", "norm_polling", "norm_executive", "norm_censorship", "norm_loyalty"],
+        "party_therm_map": {
+            "Bharatiya Janata Party": "bjp_therm_1",
+            "Indian National Congress": "inc_therm_1"
+        }
+    },
+    "PL": {
+        "label": "Poland",
+        "violence_questions": ["violence1", "violence2", "violence3", "violence4", "violence5", "violence6"],
+        "norm_questions": ["norm_1", "norm_2", "norm_3", "norm_4", "norm_5"],
+        "party_therm_map": {
+            "Koalicja Obywatelska PO .N IPL Zieloni (PO)": "po_therm_1",
+            "Prawo i Sprawiedliwosc": "pis_therm_1",
+            "Nowa Lewica (NL)": "nl_therm_1",
+            "Trzecia Droga Polska 2050 Szymona Holowni – Polskie Stronnictwo Ludowe": "psl_therm_1",
+            "Konfederacja Wolnosc i Niepodleglosc": "nn_therm_1",
+            "Bezpartyjni Samorzadowcy": "nlga_therm_1",
+            "Polska Jest Jedna": "pjj_therm_1"
+        }
+    }
+}
